@@ -1,0 +1,701 @@
+
+===========================================================================
+Welcome - the SWIP regtest framework is running on the farm
+
+Framework location: /p/psg/flows/sw/regutils/21.3/4/linux64/framework
+Job conf: /p/psg/data/dwahab/job/20210630/0900/278921610/reg_job_confs/41746800/0.dat
+PeRT record ID: 407552552
+Current time: Wed Jun 30 09:52:05 2021
+===========================================================================
+Info: Setting ENV{ FB_AUTO_FILER } to off
+Info: Setting ENV{ TEST_RUN_RESULT_ID } to 407552552
+Info: Setting ENV{ REG_RETURN_FILE_MODE } to all
+Info: Setting ENV{ REG_JOB_CONF_FILE } to /p/psg/data/dwahab/job/20210630/0900/278921610/reg_job_confs/41746800/0.dat
+Info: Setting ENV{ EDA_EVALUATION_MODE } to off
+Info: Setting ENV{ TEST_CASE_ID } to 1564222
+Info: Setting ENV{ PARENT_REPOSITORY } to /p/psg/swip/w/dwahab/Regtests_FM7/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid
+Info: Setting ENV{ REG_FARM_OS } to linux64
+Info: Setting ENV{ TEST_RUN_ID } to 5504878
+Info: Setting ENV{ REG_INITIAL_EXE_DIR_PATH } to /p/psg/swip/w/dwahab/Regtests_FM7/
+Info: Setting ENV{ CUSTOM_PERMISSION_MODE } to 0775
+Info: Setting ENV{ REG_FARM_TIMEOUT } to 28800
+Info: Setting ENV{ REGTEST_REPOSITORY } to /p/psg/swip/w/dwahab/fm7_regtests/acds/main/
+Info: Setting ENV{ REG_USE_LSF_TIMEOUT } to 0
+Info: Setting ENV{ REG_AUTO_OVERLAY } to 0
+Info: Setting ENV{ ACTIVATE_MODE } to off
+Info: Setting ENV{ REG_EXE_USE_LOCAL_DISK } to 1
+Info: Setting ENV{ REG_EXTERNAL_EXE_DIR_PATH } to /p/psg/swip/w/dwahab/Regtests_FM7/
+Info: Setting ENV{ REG_AUTO_FILE_SPRS } to 0
+Info: Setting ENV{ REG_REQUIREMENTS } to testkit/jkye/fm7_ca
+Info: Setting ENV{ REG_CACHE_RESOURCES } to 0
+Info: Setting ENV{ REG_AUTO_FILE_FBS } to 0
+Info: Setting ENV{ REG_LOCAL_ROOT_DIR_PATH } to /p/psg/swip/w/dwahab/fm7_regtests/acds/main/regtest/
+Info: Setting ENV{ QUARTUS_NUM_PARALLEL_PROCESSORS } to 2
+Info: Setting ENV{ REG_SKIP_PREPROCESS_RESULTS } to 0
+Info: Setting ENV{ REG_EXE_MODE } to farm
+Info: Setting ENV{ REG_RETURN_FILE_COMPRESS } to 0
+Info: Setting ENV{ TEST_CASE_PATH } to regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/opnFM7_revFM7_msel15_count2
+Info: Setting ENV{ MODULAR_TEST_CASE_ID } to 54774910
+Info: Running test: /p/psg/swip/w/dwahab/fm7_regtests/acds/main/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/ --reg-subtest-name=opnFM7_revFM7_msel15_count2 --device="fm7" --reg-cmd="spawn_python.pl" --python_arg="--msel=15,--file1=and_gate_designFM7.rbf,--count=2" --python_test="jtagtest_reconfig.py" --rev="FM7" --debug_cmf="0" --brd_type="emulator/generic/" --interface="jtag" --reg-subtest-random="1"
+Info: Command to re-run subtest locally, excluding parent subtest(s):
+   reg_exe \
+     --reg-subtest-name=opnFM7_revFM7_msel15_count2 \
+     --device=fm7 \
+     --reg-cmd=spawn_python.pl \
+     --python_arg=--msel=15,--file1=and_gate_designFM7.rbf,--count=2 \
+     --python_test=jtagtest_reconfig.py \
+     --rev=FM7 \
+     --debug_cmf=0 \
+     --brd_type=emulator/generic/ \
+     --interface=jtag \
+     --reg-subtest-random=1
+
+Info: Command to re-run subtest locally, including parent subtest(s):
+   reg_exe \
+     --device=fm7 \
+     --python_arg=--msel=15,--file1=and_gate_designFM7.rbf,--count=2 \
+     --python_test=jtagtest_reconfig.py \
+     --rev=FM7 \
+     --debug_cmf=0 \
+     --brd_type=emulator/generic/ \
+     --interface=jtag \
+     --reg-subtest-random=1
+
+Info: Copying regtest to local hard drive for execution
+Info: Test will execute in /tmp/arc_278922595/_0/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/
+Info: Copying regtest source from REGTEST_REPOSITORY to execution directory: /p/psg/swip/w/dwahab/fm7_regtests/acds/main/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/ -> /tmp/arc_278922595/_0/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/ 
+Info: Time to copy regtest source to execution directory: 0.127889 seconds
+Info: Processing reg_sync_dirs...
+   Items to be synced are listed in reg_sync_dirs_log.txt
+Info: reg_sync_dirs processing took 91.310749 seconds
+Info: Processing reg_copy_files...
+   Items to be copied to the regtest directory are listed in reg_copy_files_log.txt
+Info: reg_copy_files processing took 0.071166 seconds
+Info: Copying files to subtest execution directory...
+   Elapsed time: 0.183876 seconds
+
+Info: Regtest execution entry...
+Info: Current time is Wed Jun 30 09:53:38 2021
+
+Info: Setup Quartus2.ini ... Done.
+
+Info: Test execution time will be limited to 8h
+Info: Current time is Wed Jun 30 09:53:40 2021
+
+Info: Executing regtest...
+Info: Current time is Wed Jun 30 09:53:40 2021
+Info: Execution location: /tmp/arc_278922595/_0/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/opnFM7_revFM7_msel15_count2/
+Disable debug dump cmf
+
+Skipping Checking board connection as running for emulator ...................
+Warning: Board revision is defined by user : FM7
+
+DEBUG_INFO :: DUT_REV      = FM7
+DEBUG_INFO :: DUT_BASE_DIE = FM
+Info: Getting intermediate result files from Parent test...
+Delete all sof files
+
+TEST_DEBUG :: THE EMULATOR_DEVICE FILE SETS ENV EMULATOR_DEVICE with ==> FM7
+TEST_INFO :: SUCCESSFULLY CALLED ==> SETENV BOARD_RESOURCE 'emulator/fm8'
+`/tmp/arc_278922595/_0/regtest/esv/fw_validation/root/util/FMx/jtag/emulator_fm7_conf/emulator_fm7.conf' -> `./emulator_fm7.conf'
+
+DEBUG :: Copying the conf_file required for emulator --> emulator_fm7_conf/emulator_fm7.confApply setting inside configuration file emulator_fm7.conf
+reading setting model: fm7_snap_z1631a_21ww233a_emu_8 
+reading setting testdir: /nfs/site/disks/fm7_emulation_fm_1/users/sguttula/fm7_test/nsp_test_jtag_base_traces
+reading setting workdir: /nfs/site/disks/fm7_emulation_fm_1/users/$USER/output
+reading setting do_file: jtag_boot_fullbinary_chk.do
+reading setting timeout: 120000
+reading setting netbatch : standard
+Bringing up the emulator in Folsom.....
+    ---------------------------------------------------------------------------------------------------------------------------------------------------
+   | Model          : fm7_snap_z1631a_21ww233a_emu_8                                                                                                   |
+   | Test Directory : /nfs/site/disks/fm7_emulation_fm_1/users/sguttula/fm7_test/nsp_test_jtag_base_traces                                             |
+   | Job Directory  : /nfs/site/disks/fm7_emulation_fm_1/users/dwahab/output/278922595                                                                 |
+   | Do File        : jtag_boot_fullbinary_chk.do                                                                                                      |
+    ---------------------------------------------------------------------------------------------------------------------------------------------------
+Scheduling...
+source /p/psg/data/kengleon/emulator/resources/proj_setup.csh
+psg_emurun -mail_nb no -debug -remote_root /nfs/site/disks/psg_fm_disk001/release/psg_tools -model fm7_snap_z1631a_21ww233a_emu_8 -testdir /nfs/site/disks/fm7_emulation_fm_1/users/sguttula/fm7_test/nsp_test_jtag_base_traces -workdir /nfs/site/disks/fm7_emulation_fm_1/users/dwahab/output/278922595 -do_file jtag_boot_fullbinary_chk.do -timeout 120000 -netbatch standard  -setenv EMU_PICE_HOSTNAME=scc012027.sc.intel.com -setenv EMU_PICE_TEST_DIR=/tmp/arc_278922595/_0/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/opnFM7_revFM7_msel15_count2 
+Scheduling complete. Job id is 8076052.
+Waiting for job to begin...
+Job has begun. 8076052 on fmev0134.fm.intel.com:1127
+Waiting for emulator jtag to become responsive...
+Emulator is responsive after 149 seconds. jtagconfig results:
+1) Simulator [fmev0134.fm.intel.com:1127]
+   (JTAG Server Version 21.3.0 Internal Build 107 06/28/2021 SC Pro Edition)
+  Unable to read device chain - JTAG chain broken
+
+  Captured DR after reset = ()
+  Captured IR after reset = ()
+  Captured Bypass after reset = ()
+  Captured Bypass chain = ()
+
+
+ TEST_INFO :: Time consumed to start the emulator and get the prompt back == 360python_arg: --msel=15 --file1=and_gate_designFM7.rbf --count=2
+Running python test: python jtagtest_reconfig.py --msel=15 --file1=and_gate_designFM7.rbf --count=2 --board_rev=FM7...
+
+
+********** Warning | fwval is renamed to pycv                                                    *********
+**********         | to remove this warning, use "import pycv" or "import pycv as fwval" instead *********
+
+
+Set MSEL to: 15
+INFO :: leftover syscon pid(s): []
+INFO :: My device_idx in JTAGTEST : 1
+INFO :: Identifying platform family now...
+INFO :: Retrieving platform information now... 
+
+INFO :: Searching for DUT_FAMILY...
+INFO :: DUT_FAMILY does not exist!
+
+INFO :: Searching for BOARD_RESOURCE...
+INFO :: Detected BOARD_RESOURCE: emulator/fm8
+INFO :: Running platform matching now...
+INFO :: Matching data found. Assigning board family now
+INFO :: Successfully changed DUT_FAMILY name => DUT_FAMILY: agilex
+   Info     | PythonCV >> Configuration Validation with Python2/3
+   Info     | For documentation, please visit https://goto/pycv
+   Info     | Python2 executable: /p/psg/ctools/python/2.7.13/linux64/suse/bin/python
+   Info     | PYCV source: /nfs/site/disks/psg_data_16/jkye/overlay/testkit/20.1/fm7_ca/pythoncv
+   Info     | Initialize platform emulator
+   CMD      | jtagconfig --debug
+   CMD      | emulator.sh --get_workstation
+   Info     | Emulator host machine is fmev0134.fm.intel.com:1127
+   Info     | Open system console /p/psg/swip/releases5/quartuskit/21.3/107/linux64/not_shipped/syscon/sopc_builder/bin/system-console-nios2r2
+   Info     |   Opened at port: 42148
+   Info     | TimeStamp: [open_system_console()] Elapsed: 39.073 s
+   SysConC  | get_service_paths master
+   SysConR  |   0) /connections/tcp_master/veloce/master
+   Info     | Auto-pick 0 from respond(s) because it is first element that meet all the criteria
+   SysConC  | claim_service master /connections/tcp_master/veloce/master claimGroup
+   SysConR  |   0) /channels/remote1/claimGroup/master_1
+   Info     | Helper system ID: 0x830A0008
+   Info     | Non-ND nConfig flow. Refer hsd:1409068541
+   Info     |   Force nconfig->0 during power off
+   Warning  | Connector power (power) broadcast powerup
+   SysConC  | close_service master /channels/remote1/claimGroup/master_1
+   SysConR  | No respond
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.358 s
+   CMD      | emulator.sh --get_workstation
+   Info     | Emulator host machine is fmev0134.fm.intel.com:1127
+   Info     | Open system console /p/psg/swip/releases5/quartuskit/21.3/107/linux64/not_shipped/syscon/sopc_builder/bin/system-console-nios2r2
+   Info     |   Opened at port: 33094
+   Info     | TimeStamp: [open_system_console()] Elapsed: 17.211 s
+   SysConC  | get_service_paths master
+   SysConR  |    0) /connections/tcp_master/veloce/master 
+            |    1) {/devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/CJTAG/(ID=33) NT_CBSSM 1 0/SLD Interface/sld2mm_0}
+            |    2) {/devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/CJTAG/(ID=33) NT_CBSSM 1 0/SLD Interface/sld2mm_0/slave_8000000/nios2r2}
+            |    3) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0/master}
+            |    4) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(70:34 v3 #0)/nios2_0}
+            |    5) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0/master}
+            |    6) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(70:34 v3 #0)/nios2_0}
+            |    7) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=168) STL_PLL/SLD Interface/sld2mm_0}
+            |    8) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=169) STL_NIOS/SLD Interface/sld2mm_0}
+            |    9) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=169) STL_NIOS/SLD Interface/sld2mm_0/slave_380000/nios2r2}
+            |   10) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=170) STL_D2S/SLD Interface/sld2mm_0}
+            |   11) {/devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0}
+            |   12) {/devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0/slave_0/nios2r2}
+   Info     | Auto-pick 0 from respond(s) because it is first element that meet all the criteria
+   SysConC  | claim_service master /connections/tcp_master/veloce/master  claimGroup
+   SysConR  |   0) /channels/remote1/claimGroup/master_1
+   Info     | Non-ND nConfig flow. Refer hsd:1409068541
+   Info     |   Restore nconfig->1 post power on
+   Info     | Chill for 2 minutes...
+   Info     | 2 minutes up. Proceed to issue jtagconfig
+   CMD      | jtagconfig
+1) Simulator [fmev0134.fm.intel.com:1127]
+  F33FE0DD   FM8_EMU
+
+2) mUDV Base Board on 10.233.162.97 [USB-3]
+  02E250DD   10AX066H(1|2|3|3E2|4|4E2)/..
+  031050DD   10M50DA(.|ES)/10M50DC
+
+3) USB-BlasterII on 10.233.162.97 [USB-1]
+  0ED350DD   DM_STL
+
+4) USB-BlasterII on 10.233.162.97 [USB-2]
+  035800DD   
+
+
+   CMD      | jtagconfig
+1) Simulator [fmev0134.fm.intel.com:1127]
+  F33FE0DD   FM8_EMU
+
+2) mUDV Base Board on 10.233.162.97 [USB-3]
+  02E250DD   10AX066H(1|2|3|3E2|4|4E2)/..
+  031050DD   10M50DA(.|ES)/10M50DC
+
+3) USB-BlasterII on 10.233.162.97 [USB-1]
+  0ED350DD   DM_STL
+
+4) USB-BlasterII on 10.233.162.97 [USB-2]
+  035800DD   
+
+
+
+INFO :: Power off
+   Info     | powering down the dut
+   Warning  | Connector power (power) broadcast powerdown
+   SysConC  | close_service master /channels/remote1/claimGroup/master_1
+   SysConR  | No respond
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.024 s
+   CMD      | emulator.sh --get_workstation
+   Info     | Emulator host machine is fmev0134.fm.intel.com:1127
+   Info     | Open system console /p/psg/swip/releases5/quartuskit/21.3/107/linux64/not_shipped/syscon/sopc_builder/bin/system-console-nios2r2
+   Info     |   Opened at port: 60337
+   Info     | TimeStamp: [open_system_console()] Elapsed: 18.654 s
+   SysConC  | get_service_paths master
+   SysConR  |    0) /connections/tcp_master/veloce/master 
+            |    1) {/devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/CJTAG/(ID=33) NT_CBSSM 1 0/SLD Interface/sld2mm_0}
+            |    2) {/devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/CJTAG/(ID=33) NT_CBSSM 1 0/SLD Interface/sld2mm_0/slave_8000000/nios2r2}
+            |    3) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0/master}
+            |    4) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(70:34 v3 #0)/nios2_0}
+            |    5) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0/master}
+            |    6) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(70:34 v3 #0)/nios2_0}
+            |    7) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=168) STL_PLL/SLD Interface/sld2mm_0}
+            |    8) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=169) STL_NIOS/SLD Interface/sld2mm_0}
+            |    9) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=169) STL_NIOS/SLD Interface/sld2mm_0/slave_380000/nios2r2}
+            |   10) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=170) STL_D2S/SLD Interface/sld2mm_0}
+            |   11) {/devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0}
+            |   12) {/devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0/slave_0/nios2r2}
+   Info     | Auto-pick 0 from respond(s) because it is first element that meet all the criteria
+   SysConC  | claim_service master /connections/tcp_master/veloce/master  claimGroup
+   SysConR  |   0) /channels/remote1/claimGroup/master_1
+INFO :: Set nconfig = 1
+INFO :: Delay 1000 milliseconds
+INFO :: Power on
+
+   Info     | Non-ND nConfig flow. Refer hsd:1409068541
+   Info     |   Force nconfig->0 during power off
+   Warning  | Connector power (power) broadcast powerup
+   SysConC  | close_service master /channels/remote1/claimGroup/master_1
+   SysConR  | No respond
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.409 s
+   CMD      | emulator.sh --get_workstation
+   Info     | Emulator host machine is fmev0134.fm.intel.com:1127
+   Info     | Open system console /p/psg/swip/releases5/quartuskit/21.3/107/linux64/not_shipped/syscon/sopc_builder/bin/system-console-nios2r2
+   Info     |   Opened at port: 44115
+   Info     | TimeStamp: [open_system_console()] Elapsed: 16.241 s
+   SysConC  | get_service_paths master
+   SysConR  |    0) /connections/tcp_master/veloce/master 
+            |    1) {/devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/CJTAG/(ID=33) NT_CBSSM 1 0/SLD Interface/sld2mm_0}
+            |    2) {/devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/CJTAG/(ID=33) NT_CBSSM 1 0/SLD Interface/sld2mm_0/slave_8000000/nios2r2}
+            |    3) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0/master}
+            |    4) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(70:34 v3 #0)/nios2_0}
+            |    5) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0/master}
+            |    6) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(70:34 v3 #0)/nios2_0}
+            |    7) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=168) STL_PLL/SLD Interface/sld2mm_0}
+            |    8) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=169) STL_NIOS/SLD Interface/sld2mm_0}
+            |    9) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=169) STL_NIOS/SLD Interface/sld2mm_0/slave_380000/nios2r2}
+            |   10) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=170) STL_D2S/SLD Interface/sld2mm_0}
+            |   11) {/devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0}
+            |   12) {/devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0/slave_0/nios2r2}
+   Info     | Auto-pick 0 from respond(s) because it is first element that meet all the criteria
+   SysConC  | claim_service master /connections/tcp_master/veloce/master  claimGroup
+   SysConR  |   0) /channels/remote1/claimGroup/master_1
+   Info     | Non-ND nConfig flow. Refer hsd:1409068541
+   Info     |   Restore nconfig->1 post power on
+INFO :: Delay 1000 milliseconds
+
+Updating expectations...
+Expectations updated
+Reconfigure count: 1
+
+before config
+INFO :: Run jtag configuration with and_gate_designFM7.rbf
+
+
+   SysConC  | get_service_paths packet
+   SysConR  |   0) /connections/tcp_master/veloce 
+            |   1) /devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/packet 
+            |   2) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0}
+            |   3) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0}
+            |   4) /devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/packet 
+            |   5) /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/packet
+   Info     | Auto-pick 5 from respond(s) because it is first element that meet most of the criteria (10/6)
+   SysConC  | claim_service packet /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/packet ""
+   SysConR  |   0) /channels/remote1/(lib)/packet_1
+Send CONFIG_JTAG :: Response [0]
+INFO :: CONFIG_JTAG Command passed as EXPECTED
+
+C0 :: Sending Bitstream Via JTAG
+INFO :: Opening file ==> and_gate_designFM7.rbf successfully to read the bitstream content
+   Info     | Platform emulator jtag_device1 connector send 356352 Bytes of data
+   SysConC  | close_service packet /channels/remote1/(lib)/packet_1
+   SysConR  | No respond
+   SysConC  | get_service_paths device
+   SysConR  |   0) /devices/035800DD@1#USB-2#10.233.162.97 
+            |   1) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97}
+            |   2) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97}
+            |   3) /devices/DM_STL@1#USB-1#10.233.162.97 
+            |   4) /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator
+   Info     | Auto-pick 4 from respond(s) because it is first element that meet most of the criteria (9/6)
+   SysConC  | device_get_connections /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator
+   SysConR  |   0) {/connections/Simulator on localhost (fmev0134.fm.intel.com:1127)/FM8_EMU@1}
+   SysConC  | claim_service sld {/connections/Simulator on localhost (fmev0134.fm.intel.com:1127)/FM8_EMU@1} c1 {ir:1} {ir:2} {ir:6} {ir:23} {ir:513} {ir:514} {ir:520} {ir:1020} {ir:1021} {ir:1022}
+   SysConR  |   0) /channels/remote1/c1/sld_1
+   Progress |   [                    ] 1%   Progress |   [                    ] 2%   Progress |   [*                   ] 6%   Progress |   [**                  ] 11%   Progress |   [***                 ] 16%   Progress |   [****                ] 20%   Progress |   [*****               ] 25%   Progress |   [*****               ] 29%   Progress |   [******              ] 34%   Progress |   [*******             ] 39%   Progress |   [********            ] 43%   Progress |   [*********           ] 48%   Progress |   [**********          ] 52%   Progress |   [***********         ] 57%   Progress |   [************        ] 62%   Progress |   [*************       ] 66%   Progress |   [**************      ] 71%   Progress |   [***************     ] 75%   Progress |   [****************    ] 80%   Progress |   [*****************   ] 85%   Progress |   [*****************   ] 86%   Progress |   [*****************   ] 88%   Progress |   [******************  ] 93%   Progress |   [******************* ] 97%   Progress |   [********************] 100%
+   SysConC  | close_service sld /channels/remote1/c1/sld_1
+   SysConR  | No respond
+   Warning  | Connector jtag_device1 (jtag) broadcast dut_program
+   SysConC  | close_service master /channels/remote1/claimGroup/master_1
+   SysConR  | No respond
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.525 s
+   CMD      | emulator.sh --get_workstation
+   Info     | Emulator host machine is fmev0134.fm.intel.com:1127
+   Info     | Open system console /p/psg/swip/releases5/quartuskit/21.3/107/linux64/not_shipped/syscon/sopc_builder/bin/system-console-nios2r2
+   Info     |   Opened at port: 44788
+   Info     | TimeStamp: [open_system_console()] Elapsed: 20.203 s
+   SysConC  | get_service_paths master
+   SysConR  |    0) /connections/tcp_master/veloce/master 
+            |    1) {/devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/CJTAG/(ID=33) NT_CBSSM 1 0/SLD Interface/sld2mm_0}
+            |    2) {/devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/CJTAG/(ID=33) NT_CBSSM 1 0/SLD Interface/sld2mm_0/slave_8000000/nios2r2}
+            |    3) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0/master}
+            |    4) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(70:34 v3 #0)/nios2_0}
+            |    5) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0/master}
+            |    6) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(70:34 v3 #0)/nios2_0}
+            |    7) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=168) STL_PLL/SLD Interface/sld2mm_0}
+            |    8) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=169) STL_NIOS/SLD Interface/sld2mm_0}
+            |    9) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=169) STL_NIOS/SLD Interface/sld2mm_0/slave_380000/nios2r2}
+            |   10) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=170) STL_D2S/SLD Interface/sld2mm_0}
+            |   11) {/devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0}
+            |   12) {/devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0/slave_0/nios2r2}
+   Info     | Auto-pick 0 from respond(s) because it is first element that meet all the criteria
+   SysConC  | claim_service master /connections/tcp_master/veloce/master  claimGroup
+   SysConR  |   0) /channels/remote1/claimGroup/master_1
+INFO :: Successfully loaded bitstream as expected
+INFO :: Delay 1000 milliseconds
+Checking pin and status after attempted JTAG configuration
+
+Updating expectations...
+Expectations updated
+
+V0 :: Verify Pin
+INFO :: index number for arc-resource-page = 
+NSTATUS = 1
+INFO :: Measured NSTATUS: 1 matched expectation
+CONFIG_DONE = 0
+ERROR :: Expected CONFIG_DONE: 1, Measured CONFIG_DONE: 0
+ERROR :: Pin incorrect
+
+V1 :: Verify status
+(4, ())
+   SysConC  | get_service_paths packet
+   SysConR  |   0) /connections/tcp_master/veloce 
+            |   1) /devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/packet 
+            |   2) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0}
+            |   3) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0}
+            |   4) /devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/packet 
+            |   5) /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/packet
+   Info     | Auto-pick 5 from respond(s) because it is first element that meet most of the criteria (10/6)
+   SysConC  | claim_service packet /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/packet ""
+   SysConR  |   0) /channels/remote1/(lib)/packet_1
+   SysConC  | close_service packet /channels/remote1/(lib)/packet_1
+   SysConR  | No respond
+INFO :: Send CONFIG_STATUS :: Response [24576, 0, 0, 3221225487, 3, 0, 0]
+INFO :: (re)config_status['STATE']              = 0x0
+INFO :: (re)config_status['VERSION']            = 0x0
+INFO :: (re)config_status['FLASH_IDX']          = 0x0
+INFO :: (re)config_status['NSTATUS']            = 0x1
+INFO :: (re)config_status['NCONFIG']            = 0x1
+INFO :: (re)config_status['MSEL_LATCHED']       = 0xf
+INFO :: (re)config_status['CONFIG_DONE']        = 0x1
+INFO :: (re)config_status['INIT_DONE']          = 0x1
+INFO :: (re)config_status['CVP_DONE']           = 0x0
+INFO :: (re)config_status['SEU_ERROR']          = 0x0
+INFO :: (re)config_status['POR_WAIT']           = 0x0
+INFO :: (re)config_status['TRAMP_DSBLE']        = 0x0
+INFO :: (re)config_status['PROVISION_CMF']      = 0x0
+INFO :: (re)config_status['ERROR_LOCATION']     = 0x0
+INFO :: (re)config_status['ERROR_DETAILS']      = 0x0
+Comparing (re)config_status with expectation...
+INFO :: (RE)CONFIG_STATUS result same as expectation
+Finished complete_jtag_config
+after config
+inside i count %2
+after delay%2
+Reconfigure count: 2
+
+before config else loop
+INFO :: Run jtag configuration with and_gate_designFM7.rbf
+
+
+   SysConC  | get_service_paths packet
+   SysConR  |   0) /connections/tcp_master/veloce 
+            |   1) /devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/packet 
+            |   2) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0}
+            |   3) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0}
+            |   4) /devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/packet 
+            |   5) /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/packet
+   Info     | Auto-pick 5 from respond(s) because it is first element that meet most of the criteria (10/6)
+   SysConC  | claim_service packet /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/packet ""
+   SysConR  |   0) /channels/remote1/(lib)/packet_1
+Send CONFIG_JTAG :: Response [0]
+INFO :: CONFIG_JTAG Command passed as EXPECTED
+
+C1 :: Sending Bitstream Via JTAG
+INFO :: Opening file ==> and_gate_designFM7.rbf successfully to read the bitstream content
+   Info     | Platform emulator jtag_device1 connector send 356352 Bytes of data
+   SysConC  | close_service packet /channels/remote1/(lib)/packet_1
+   SysConR  | No respond
+   SysConC  | get_service_paths device
+   SysConR  |   0) /devices/035800DD@1#USB-2#10.233.162.97 
+            |   1) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97}
+            |   2) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97}
+            |   3) /devices/DM_STL@1#USB-1#10.233.162.97 
+            |   4) /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator
+   Info     | Auto-pick 4 from respond(s) because it is first element that meet most of the criteria (9/6)
+   SysConC  | device_get_connections /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator
+   SysConR  |   0) {/connections/Simulator on localhost (fmev0134.fm.intel.com:1127)/FM8_EMU@1}
+   SysConC  | claim_service sld {/connections/Simulator on localhost (fmev0134.fm.intel.com:1127)/FM8_EMU@1} c1 {ir:1} {ir:2} {ir:6} {ir:23} {ir:513} {ir:514} {ir:520} {ir:1020} {ir:1021} {ir:1022}
+   SysConR  |   0) /channels/remote1/c1/sld_1
+   Progress |   [                    ] 2%   Progress |   [*                   ] 6%   Progress |   [**                  ] 11%   Progress |   [***                 ] 16%   Progress |   [****                ] 20%   Progress |   [*****               ] 25%   Progress |   [*****               ] 29%   Progress |   [******              ] 34%   Progress |   [*******             ] 39%   Progress |   [********            ] 43%   Progress |   [*********           ] 48%   Progress |   [**********          ] 52%   Progress |   [***********         ] 57%   Progress |   [************        ] 62%   Progress |   [*************       ] 66%   Progress |   [**************      ] 71%   Progress |   [***************     ] 75%   Progress |   [****************    ] 80%   Progress |   [*****************   ] 85%   Progress |   [*****************   ] 86%   Progress |   [*****************   ] 88%   Progress |   [******************  ] 93%   Progress |   [******************* ] 97%   Progress |   [********************] 100%
+   SysConC  | close_service sld /channels/remote1/c1/sld_1
+   SysConR  | No respond
+   Warning  | Connector jtag_device1 (jtag) broadcast dut_program
+   SysConC  | close_service master /channels/remote1/claimGroup/master_1
+   SysConR  | No respond
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.025 s
+   CMD      | emulator.sh --get_workstation
+   Info     | Emulator host machine is fmev0134.fm.intel.com:1127
+   Info     | Open system console /p/psg/swip/releases5/quartuskit/21.3/107/linux64/not_shipped/syscon/sopc_builder/bin/system-console-nios2r2
+   Info     |   Opened at port: 52080
+   Info     | TimeStamp: [open_system_console()] Elapsed: 20.409 s
+   SysConC  | get_service_paths master
+   SysConR  |    0) /connections/tcp_master/veloce/master 
+            |    1) {/devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/CJTAG/(ID=33) NT_CBSSM 1 0/SLD Interface/sld2mm_0}
+            |    2) {/devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/CJTAG/(ID=33) NT_CBSSM 1 0/SLD Interface/sld2mm_0/slave_8000000/nios2r2}
+            |    3) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0/master}
+            |    4) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(70:34 v3 #0)/nios2_0}
+            |    5) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0/master}
+            |    6) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(70:34 v3 #0)/nios2_0}
+            |    7) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=168) STL_PLL/SLD Interface/sld2mm_0}
+            |    8) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=169) STL_NIOS/SLD Interface/sld2mm_0}
+            |    9) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=169) STL_NIOS/SLD Interface/sld2mm_0/slave_380000/nios2r2}
+            |   10) {/devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/CJTAG/(ID=170) STL_D2S/SLD Interface/sld2mm_0}
+            |   11) {/devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0}
+            |   12) {/devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0/slave_0/nios2r2}
+   Info     | Auto-pick 0 from respond(s) because it is first element that meet all the criteria
+   SysConC  | claim_service master /connections/tcp_master/veloce/master  claimGroup
+   SysConR  |   0) /channels/remote1/claimGroup/master_1
+INFO :: Successfully loaded bitstream as expected
+INFO :: Delay 1000 milliseconds
+Checking pin and status after attempted JTAG configuration
+
+Updating expectations...
+Expectations updated
+
+V2 :: Verify Pin
+INFO :: index number for arc-resource-page = 
+NSTATUS = 1
+INFO :: Measured NSTATUS: 1 matched expectation
+CONFIG_DONE = 0
+ERROR :: Expected CONFIG_DONE: 1, Measured CONFIG_DONE: 0
+ERROR :: Pin incorrect
+
+V3 :: Verify status
+(4, ())
+   SysConC  | get_service_paths packet
+   SysConR  |   0) /connections/tcp_master/veloce 
+            |   1) /devices/035800DD@1#USB-2#10.233.162.97/(link)/JTAG/packet 
+            |   2) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0}
+            |   3) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97/(link)/JTAG/(110:132 v1 #0)/phy_0}
+            |   4) /devices/DM_STL@1#USB-1#10.233.162.97/(link)/JTAG/packet 
+            |   5) /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/packet
+   Info     | Auto-pick 5 from respond(s) because it is first element that meet most of the criteria (10/6)
+   SysConC  | claim_service packet /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator/(link)/JTAG/packet ""
+   SysConR  |   0) /channels/remote1/(lib)/packet_1
+   SysConC  | close_service packet /channels/remote1/(lib)/packet_1
+   SysConR  | No respond
+INFO :: Send CONFIG_STATUS :: Response [24576, 0, 0, 3221225487, 3, 0, 0]
+INFO :: (re)config_status['STATE']              = 0x0
+INFO :: (re)config_status['VERSION']            = 0x0
+INFO :: (re)config_status['FLASH_IDX']          = 0x0
+INFO :: (re)config_status['NSTATUS']            = 0x1
+INFO :: (re)config_status['NCONFIG']            = 0x1
+INFO :: (re)config_status['MSEL_LATCHED']       = 0xf
+INFO :: (re)config_status['CONFIG_DONE']        = 0x1
+INFO :: (re)config_status['INIT_DONE']          = 0x1
+INFO :: (re)config_status['CVP_DONE']           = 0x0
+INFO :: (re)config_status['SEU_ERROR']          = 0x0
+INFO :: (re)config_status['POR_WAIT']           = 0x0
+INFO :: (re)config_status['TRAMP_DSBLE']        = 0x0
+INFO :: (re)config_status['PROVISION_CMF']      = 0x0
+INFO :: (re)config_status['ERROR_LOCATION']     = 0x0
+INFO :: (re)config_status['ERROR_DETAILS']      = 0x0
+Comparing (re)config_status with expectation...
+INFO :: (RE)CONFIG_STATUS result same as expectation
+Finished complete_jtag_config
+after config
+   SysConC  | get_service_paths device
+   SysConR  |   0) /devices/035800DD@1#USB-2#10.233.162.97 
+            |   1) {/devices/10AX066H(1|2|3|3E2|4|4E2)|..@1#USB-3#mUDV Base Board#10.233.162.97}
+            |   2) {/devices/10M50DA(.|ES)|10M50DC@2#USB-3#mUDV Base Board#10.233.162.97}
+            |   3) /devices/DM_STL@1#USB-1#10.233.162.97 
+            |   4) /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator
+   Info     | Auto-pick 4 from respond(s) because it is first element that meet most of the criteria (9/6)
+   SysConC  | device_get_connections /devices/FM8_EMU@1#fmev0134.fm.intel.com:1127#Simulator
+   SysConR  |   0) {/connections/Simulator on localhost (fmev0134.fm.intel.com:1127)/FM8_EMU@1}
+   SysConC  | claim_service sld {/connections/Simulator on localhost (fmev0134.fm.intel.com:1127)/FM8_EMU@1} c1 {ir:1} {ir:2} {ir:6} {ir:23} {ir:513} {ir:514} {ir:520} {ir:1020} {ir:1021} {ir:1022}
+   SysConR  |   0) /channels/remote1/c1/sld_1
+DEBUG_INFO :: Reading BOOTROM BOOTSTATUS: 0xB0100181
+not i count %2
+after dealy not %2
+
+REPORT :: FAILED due to Exception
+Dumping trace after test failure
+INFO_EMU :: emu_hello
+emu_gtrace_dump:0000086C:
+expected size:2156
+received: 2156 bytes in 0.000 s
+---------------g_trace start------------->
+
+30-June-2021 10:25:15
+
+CHECKSUM = 0x8aa4cea5
+WRITE OFFSET = 21
+==============================================================================================
+[  0] TRACE_BOOT                                                   216          0x000000d8
+[  1] TRACE_CONFIG_STATE_IDLE                                      1189         0x000004a5
+[  2] TRACE_CONFIG_EVENT_BOOT                                      881          0x00000371
+[  3] TRACE_CONFIG_STATE_CONFIGURE                                 223          0x000000df
+[  4] TRACE_CONFIG_STATE_CONFIGURE                                 223          0x000000df
+[  5] TRACE_CONFIG_MAIN_HEADER_LOADED                              1163022147   0x45524f43
+[  6] TRACE_CONFIG_CNOC_INITIALIZED                                155          0x0000009b
+[  7] TRACE_MBOX_OPCODE_RCVD                                       4            0x00000004
+[  8] TRACE_CONFIG_STATE_COMPLETE                                  287          0x0000011f
+[  9] TRACE_MBOX_OPCODE_RCVD                                       5            0x00000005
+[ 10] TRACE_MBOX_CMD_JTAG_CONFIG                                   65           0x00000041
+[ 11] TRACE_CONFIG_EVENT_JTAG_CONFIG                               337          0x00000151
+[ 12] TRACE_CONFIG_EVENT_PREWIPE                                   362          0x0000016a
+[ 13] TRACE_CONFIG_STATE_WIPE                                      92           0x0000005c
+[ 14] TRACE_CONFIG_WIPE_DONE                                       919          0x00000397
+[ 15] TRACE_CONFIG_STATE_CONFIGURE                                 586          0x0000024a
+[ 16] TRACE_CONFIG_MAIN_HEADER_LOADED                              0            0x00000000
+[ 17] TRACE_CONFIG_MAIN_HEADER_LOADED                              1163022147   0x45524f43
+[ 18] TRACE_CONFIG_CNOC_INITIALIZED                                155          0x0000009b
+[ 19] TRACE_MBOX_OPCODE_RCVD                                       4            0x00000004
+[ 20] TRACE_CONFIG_STATE_COMPLETE                                  287          0x0000011f
+
+<--------------g_trace end--------------
+
+
+
+INFO :: Collect trace
+INFO :: Running command: quartus_pgm -c 1 -m jtag --trace cmf.trace
+DEBUG :: error code 0
+Info: *******************************************************************
+Info: Running Quartus Prime Programmer
+    Info: Version 21.3.0 Internal Build 107 06/28/2021 SC Pro Edition
+    Info: Copyright (C) 2021  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Wed Jun 30 10:25:18 2021
+    Info: System process ID: 18141
+Info: Command: quartus_pgm -c 1 -m jtag --trace=cmf.trace
+Info: Using INI file /tmp/arc_278922595/_0/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/opnFM7_revFM7_msel15_count2/quartus.ini
+Info (213045): Using programming cable "Simulator [fmev0134.fm.intel.com:1127]"
+Info (209060): Started Programmer operation at Wed Jun 30 10:25:19 2021
+Info (209011): Successfully performed operation(s)
+Info (209061): Ended Programmer operation at Wed Jun 30 10:25:19 2021
+Info: Quartus Prime Programmer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 738 megabytes
+    Info: Processing ended: Wed Jun 30 10:25:19 2021
+    Info: Elapsed time: 00:00:01
+    Info: System process ID: 18141
+
+INFO :: Running command: pgmalgo_trace_dump cmf.trace cmf.trace.out
+DEBUG :: error code 1
+ERROR :: Fail to run command "pgmalgo_trace_dump cmf.trace cmf.trace.out", error code 1 =>
+Fail to decode cmf.trace
+    Fail to open trace file cmf.trace
+
+WARNING :: Fail to collect trace, make sure you have acdskit resource
+INFO :: Done collecting trace
+INFO :: Delay 1000 milliseconds
+INFO :: leftover syscon pid(s): ['8685']
+WARNING :: there are unclosed system-console(s). Killing them...
+
+
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.392 s
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.0 s
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.0 s
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.0 s
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.0 s
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.0 s
+Stop Emulator....
+Removing netbatch jobid 8076052
+The following jobs will be removed
+  +fm_emu_vp.8076052 (removed successfully)
+Removing temp jobid storage file /tmp/arc_278922595/emulator/nb_jobid.txt
+Killing jtagd process 30192 ...
+
+ TEST_INFO :: EMULATOR STOP COMMAND ISSUED SUCCESSFULLY............Info: Paused test execution timeout monitor.
+Info: Current time is Wed Jun 30 10:25:23 2021
+
+reg.rout.............................................................. FAILED
+
+Info: No family detected. 
+
+Register to Pert as fail succeeded.
+
+Info: reg_analyze took 0.10947 seconds
+
+Info: Restarted test execution timeout monitor.
+Info: Stopped test execution timeout monitor.
+
+Info: Current time is Wed Jun 30 10:25:24 2021
+Info: Regtest p/psg/swip/w/dwahab/fm7_regtests/acds/main/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/opnFM7_revFM7_msel15_count2 ran in 1905.85604 seconds
+
+Info: Processing execution directory before copying back result files...
+   Dir: /tmp/arc_278922595/_0/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/opnFM7_revFM7_msel15_count2/
+   Items to copy back are listed in .reg_run/returned_files.txt
+   Elapsed time: 0.215378 seconds
+
+Info: Copying result files from local hard drive to shared drive...
+   Src: /tmp/arc_278922595/_0/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/opnFM7_revFM7_msel15_count2
+   Dst: /p/psg/swip/w/dwahab/Regtests_FM7/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/opnFM7_revFM7_msel15_count2
+Info: Copying file:
+   From: /tmp/arc_278922595/_0/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/opnFM7_revFM7_msel15_count2
+   To: /p/psg/swip/w/dwahab/Regtests_FM7/regtest/esv/fw_validation/fm_emu/jtag/jtag_reconfig_valid/opnFM7_revFM7_msel15_count2
+   Elapsed time: 0.305345 seconds
+
+===========================================================================
+Goodbye - the SWIP regtest framework is exiting (1)...
+Current time: Wed Jun 30 10:25:25 2021
+Failed to locate temp jobid storage file /tmp/arc_278922595/emulator/nb_jobid.txt
+Folsom jobid associated with PICE machine not found. Either this was already cleaned up or you are using different ARC_TEMP_STORAGE setting!
+This might due to you are now using a different terminal or you had run 'arc shell or exit' after running emulator.sh --start_emulator.
+	VP on fmynbm7005
+	Version 8.4.2_0942_05
+	On since 05/06/2021 13:41:40
+	Time now 06/30/2021 10:25:26
+--------------------------------------------------------------------------------------------------------
+Status               Jobid Class    Qslot  User       Cmdline                             Workstation   
+--------------------------------------------------------------------------------------------------------
+Del                8076052 (emu_dr> /v2sm> dwahab     /nfs/site/disks/psg_fm_disk001/rel> fmev0134      
+Run                8076042 (emu_dr> /v2sm> dwahab     /nfs/site/disks/psg_fm_disk001/rel> fmev0118      
+--------------------------------------------------------------------------------------------------------
+Please run 'emulator.sh --stop_emulator --jobid <JOBID> to remove the folsom emulator job instead.
