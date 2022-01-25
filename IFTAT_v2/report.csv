@@ -1,0 +1,7 @@
+,FILE_PATH,FUNC_NAME,TRACE_NAME,LINE_NO,TRACE_MACRO,TRACE_INFO
+0,C:\Users\parthpat\firmware\sdm\app\main\src\slot_table_compatible.c,sdm_return_t update_section_slot(const main_descriptor_t *main_descriptor),TRACE_SLOT_UPDATE_ENTRY_WRONG,766,SDM_TRACE_INFO,__LINE__
+1,C:\Users\parthpat\firmware\sdm\app\main\src\config_state_machine.c,void config_state_init(void),TRACE_REDUNDANCY_INIT_ERROR,1243,SDM_TRACE_ERROR,__LINE__
+2,C:\Users\parthpat\firmware\sdm\app\main\src\config_state_machine.c,void config_state_init(void),TRACE_REDUNDANCY_INIT_ERROR,1243,SDM_TRACE_ERROR,__LINE__
+3,C:\Users\parthpat\firmware\sdm\app\main\src\config_state_machine.c,void config_state_init(void),TRACE_REDUNDANCY_INIT_ERROR,1243,SDM_TRACE_ERROR,__LINE__
+4,C:\Users\parthpat\firmware\sdm\app\main\src\config_state_machine.c,void config_state_init(void),TRACE_REDUNDANCY_INIT_ERROR,1243,SDM_TRACE_ERROR,__LINE__
+5,C:\Users\parthpat\firmware\sdm\app\main\src\config_state_machine.c,void config_state_async_event_inject(config_event_t event),TRACE_CONFIG_EVENT_TRANSITION,1110,SDM_TRACE_EVENT_LOG,__LINE__

@@ -1,0 +1,335 @@
+REGTEST_REPOSITORY: /p/psg/swip/regtestfiles/main/current/
+
+quartus_pgm -c 1 -m JTAG -o p;/tmp/arc_94072971/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_5_SHA256/type1/fm61/compile/bitstream/functional_test/keychain_chain1_2_per2.qky
+	|___ INI FILE: /tmp/arc_94072971/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_5_SHA256/type1/fm61/compile/bitstream/functional_test/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programmer was successful. 0 errors, 0 warnings
+
+quartus_pgm -c 1 -m JTAG -o v;/tmp/arc_94072971/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_5_SHA256/type1/fm61/compile/bitstream/functional_test/keychain_chain1_2_per2.qky
+	|___ INI FILE: /tmp/arc_94072971/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_5_SHA256/type1/fm61/compile/bitstream/functional_test/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programmer was successful. 0 errors, 0 warnings
+
+quartus_pgm -c 1 -m JTAG -o p;/tmp/arc_94072971/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_5_SHA256/type1/fm61/compile/bitstream/functional_test/aes.ccert
+	|___ INI FILE: /tmp/arc_94072971/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_5_SHA256/type1/fm61/compile/bitstream/functional_test/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programmer was successful. 0 errors, 0 warnings
+
+quartus_pgm -c 1 -m JTAG -o p;/tmp/arc_94072971/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_5_SHA256/type1/fm61/compile/bitstream/functional_test/keychain_chain1_2_per2.qky
+	|___ INI FILE: /tmp/arc_94072971/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_5_SHA256/type1/fm61/compile/bitstream/functional_test/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programmer was successful. 0 errors, 0 warnings
+
+quartus_pgm -c 1 -m JTAG -o v;/tmp/arc_94072971/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_5_SHA256/type1/fm61/compile/bitstream/functional_test/keychain_chain1_2_per2.qky
+	|___ INI FILE: /tmp/arc_94072971/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_5_SHA256/type1/fm61/compile/bitstream/functional_test/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programmer was successful. 0 errors, 0 warnings
+
+
+TEST STATUS: Passed
+
+SYSTEM CONSOLE COMMANDS:
+
+SET : nCONFIG -> 1
+SET : SVID -> 1
+SET : DC_EN -> 0
+SET : MSEL -> 0xe (14)
+SET : nCONFIG -> 101
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 0
+GET : nSTATUS <- 0
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 
+PYSV INFO: Waiting for DMA done...
+GET : CONFIG STATUS [SDM]-> [0x6000, 0x0, 0x150300, 0xc000000e, 0xb, 0x0, 0x0]
+        CONFIG_STATUS
+                Soft function status
+                        CVP_DONE -> 0x0
+                        CONF_DONE -> 0x1
+                        INIT_DONE -> 0x1
+                        SEU_ERROR -> 0x1
+                        HPS_COLDRESET -> 0x0
+                        HPS_WARMRESET -> 0x0
+                Pin status
+                        MSEL -> 0xe
+                        nSTATUS -> 0x1
+                        nCONFIG -> 0x1
+                CONFIG_STATUS -> [0x6000, 0x0, 0x150300, 0xc000000e, 0xb, 0x0, 0x0]
+                Error details -> 0x0
+                State -> [0x0]
+                Version -> [0x150300]
+                Error location -> 0x0
+        RSU_IMAGE_UPDATE -> 0x0
+        RSU_STATUS
+SET : nCONFIG -> 101
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 0
+GET : nSTATUS <- 0
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 
+PYSV INFO: Waiting for DMA done...
+GET : CONFIG STATUS [SDM]-> [0x6000, 0x0, 0x150300, 0xc000000e, 0x80000000, 0x0, 0x0]
+        CONFIG_STATUS
+                Soft function status
+                        CVP_DONE -> 0x0
+                        CONF_DONE -> 0x0
+                        INIT_DONE -> 0x0
+                        SEU_ERROR -> 0x0
+                        HPS_COLDRESET -> 0x0
+                        HPS_WARMRESET -> 0x0
+                Pin status
+                        MSEL -> 0xe
+                        nSTATUS -> 0x1
+                        nCONFIG -> 0x1
+                CONFIG_STATUS -> [0x6000, 0x0, 0x150300, 0xc000000e, 0x80000000, 0x0, 0x0]
+                Error details -> 0x0
+                State -> [0x0]
+                Version -> [0x150300]
+                Error location -> 0x0
+        RSU_IMAGE_UPDATE -> []
+        RSU_STATUS
+GET : CONFIG STATUS [SDM]-> [0x6000, 0x0, 0x150300, 0xc000000e, 0x80000000, 0x0, 0x0]
+----------------------------------
+Test passed for loop: 0
+----------------------------------
+SET : nCONFIG -> 101
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 0
+GET : nSTATUS <- 0
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 
+PYSV INFO: Waiting for DMA done...
+GET : CONFIG STATUS [SDM]-> [0x6000, 0x0, 0x150300, 0xc000000e, 0x80000000, 0x0, 0x0]
+        CONFIG_STATUS
+                Soft function status
+                        CVP_DONE -> 0x0
+                        CONF_DONE -> 0x0
+                        INIT_DONE -> 0x0
+                        SEU_ERROR -> 0x0
+                        HPS_COLDRESET -> 0x0
+                        HPS_WARMRESET -> 0x0
+                Pin status
+                        MSEL -> 0xe
+                        nSTATUS -> 0x1
+                        nCONFIG -> 0x1
+                CONFIG_STATUS -> [0x6000, 0x0, 0x150300, 0xc000000e, 0x80000000, 0x0, 0x0]
+                Error details -> 0x0
+                State -> [0x0]
+                Version -> [0x150300]
+                Error location -> 0x0
+        RSU_IMAGE_UPDATE -> []
+        RSU_STATUS
+GET : CONFIG STATUS [SDM]-> [0x6000, 0x0, 0x150300, 0xc000000e, 0x80000000, 0x0, 0x0]
+----------------------------------
+Test passed for loop: 0
+----------------------------------
+SET : nCONFIG -> 101
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 0
+GET : nSTATUS <- 0
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 
+PYSV INFO: Waiting for DMA done...
+GET : CONFIG STATUS [SDM]-> [0x6000, 0x0, 0x150300, 0xc000000e, 0x3, 0x0, 0x0]
+        CONFIG_STATUS
+                Soft function status
+                        CVP_DONE -> 0x0
+                        CONF_DONE -> 0x1
+                        INIT_DONE -> 0x1
+                        SEU_ERROR -> 0x0
+                        HPS_COLDRESET -> 0x0
+                        HPS_WARMRESET -> 0x0
+                Pin status
+                        MSEL -> 0xe
+                        nSTATUS -> 0x1
+                        nCONFIG -> 0x1
+                CONFIG_STATUS -> [0x6000, 0x0, 0x150300, 0xc000000e, 0x3, 0x0, 0x0]
+                Error details -> 0x0
+                State -> [0x0]
+                Version -> [0x150300]
+                Error location -> 0x0
+        RSU_IMAGE_UPDATE -> []
+        RSU_STATUS
+SET : nCONFIG -> 101
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 0
+GET : nSTATUS <- 0
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 
+PYSV INFO: Waiting for DMA done...
+GET : CONFIG STATUS [SDM]-> [0x6000, 0x0, 0x150300, 0xc000000e, 0x80000000, 0x0, 0x0]
+        CONFIG_STATUS
+                Soft function status
+                        CVP_DONE -> 0x0
+                        CONF_DONE -> 0x0
+                        INIT_DONE -> 0x0
+                        SEU_ERROR -> 0x0
+                        HPS_COLDRESET -> 0x0
+                        HPS_WARMRESET -> 0x0
+                Pin status
+                        MSEL -> 0xe
+                        nSTATUS -> 0x1
+                        nCONFIG -> 0x1
+                CONFIG_STATUS -> [0x6000, 0x0, 0x150300, 0xc000000e, 0x80000000, 0x0, 0x0]
+                Error details -> 0x0
+                State -> [0x0]
+                Version -> [0x150300]
+                Error location -> 0x0
+        RSU_IMAGE_UPDATE -> []
+        RSU_STATUS
+GET : CONFIG STATUS [SDM]-> [0x6000, 0x0, 0x150300, 0xc000000e, 0x80000000, 0x0, 0x0]
+----------------------------------
+Test passed for loop: 0
+----------------------------------
+SET : nCONFIG -> 101
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 0
+GET : nSTATUS <- 0
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 
+PYSV INFO: Waiting for DMA done...
+GET : CONFIG STATUS [SDM]-> [0x6000, 0x0, 0x150300, 0xc000000e, 0x3, 0x0, 0x0]
+        CONFIG_STATUS
+                Soft function status
+                        CVP_DONE -> 0x0
+                        CONF_DONE -> 0x1
+                        INIT_DONE -> 0x1
+                        SEU_ERROR -> 0x0
+                        HPS_COLDRESET -> 0x0
+                        HPS_WARMRESET -> 0x0
+                Pin status
+                        MSEL -> 0xe
+                        nSTATUS -> 0x1
+                        nCONFIG -> 0x1
+                CONFIG_STATUS -> [0x6000, 0x0, 0x150300, 0xc000000e, 0x3, 0x0, 0x0]
+                Error details -> 0x0
+                State -> [0x0]
+                Version -> [0x150300]
+                Error location -> 0x0
+        RSU_IMAGE_UPDATE -> []
+        RSU_STATUS
+SET : nCONFIG -> 101
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 0
+GET : nSTATUS <- 0
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 
+PYSV INFO: Waiting for DMA done...
+PYSV INFO: DMA Timed out
+GET : CONFIG STATUS [SDM]-> [0x6000, 0xf0010015, 0x150300, 0xc000000e, 0x0, 0x800, 0x0]
+        CONFIG_STATUS
+                Soft function status
+                        CVP_DONE -> 0x0
+                        CONF_DONE -> 0x0
+                        INIT_DONE -> 0x0
+                        SEU_ERROR -> 0x0
+                        HPS_COLDRESET -> 0x0
+                        HPS_WARMRESET -> 0x0
+                Pin status
+                        MSEL -> 0xe
+                        nSTATUS -> 0x1
+                        nCONFIG -> 0x1
+                CONFIG_STATUS -> [0x6000, 0xf0010015, 0x150300, 0xc000000e, 0x0, 0x800, 0x0]
+                Error details -> 0x0
+                State -> [0xf0010015]
+                Version -> [0x150300]
+                Error location -> 0x800
+        RSU_IMAGE_UPDATE -> []
+        RSU_STATUS
+SET : nCONFIG -> 101
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 0
+GET : nSTATUS <- 0
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 
+PYSV INFO: Waiting for DMA done...
+GET : CONFIG STATUS [SDM]-> [0x6000, 0x0, 0x150300, 0xc000000e, 0x3, 0x0, 0x0]
+        CONFIG_STATUS
+                Soft function status
+                        CVP_DONE -> 0x0
+                        CONF_DONE -> 0x1
+                        INIT_DONE -> 0x1
+                        SEU_ERROR -> 0x0
+                        HPS_COLDRESET -> 0x0
+                        HPS_WARMRESET -> 0x0
+                Pin status
+                        MSEL -> 0xe
+                        nSTATUS -> 0x1
+                        nCONFIG -> 0x1
+                CONFIG_STATUS -> [0x6000, 0x0, 0x150300, 0xc000000e, 0x3, 0x0, 0x0]
+                Error details -> 0x0
+                State -> [0x0]
+                Version -> [0x150300]
+                Error location -> 0x0
+        RSU_IMAGE_UPDATE -> []
+        RSU_STATUS
+SET : nCONFIG -> 101
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 0
+GET : nSTATUS <- 0
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 
+PYSV INFO: Waiting for DMA done...
+PYSV INFO: DMA Timed out
+GET : CONFIG STATUS [SDM]-> [0x6000, 0xf0090054, 0x150300, 0xc000000e, 0x0, 0x2000, 0x0]
+        CONFIG_STATUS
+                Soft function status
+                        CVP_DONE -> 0x0
+                        CONF_DONE -> 0x0
+                        INIT_DONE -> 0x0
+                        SEU_ERROR -> 0x0
+                        HPS_COLDRESET -> 0x0
+                        HPS_WARMRESET -> 0x0
+                Pin status
+                        MSEL -> 0xe
+                        nSTATUS -> 0x1
+                        nCONFIG -> 0x1
+                CONFIG_STATUS -> [0x6000, 0xf0090054, 0x150300, 0xc000000e, 0x0, 0x2000, 0x0]
+                Error details -> 0x0
+                State -> [0xf0090054]
+                Version -> [0x150300]
+                Error location -> 0x2000
+        RSU_IMAGE_UPDATE -> []
+        RSU_STATUS
+SET : nCONFIG -> 101
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 0
+GET : nSTATUS <- 0
+SET : nCONFIG -> 1
+GET : nSTATUS <- 1
+SET : nCONFIG -> 
+PYSV INFO: Waiting for DMA done...
+GET : CONFIG STATUS [SDM]-> [0x6000, 0x0, 0x150300, 0xc000000e, 0x3, 0x0, 0x0]
+        CONFIG_STATUS
+                Soft function status
+                        CVP_DONE -> 0x0
+                        CONF_DONE -> 0x1
+                        INIT_DONE -> 0x1
+                        SEU_ERROR -> 0x0
+                        HPS_COLDRESET -> 0x0
+                        HPS_WARMRESET -> 0x0
+                Pin status
+                        MSEL -> 0xe
+                        nSTATUS -> 0x1
+                        nCONFIG -> 0x1
+                CONFIG_STATUS -> [0x6000, 0x0, 0x150300, 0xc000000e, 0x3, 0x0, 0x0]
+                Error details -> 0x0
+                State -> [0x0]
+                Version -> [0x150300]
+                Error location -> 0x0
+        RSU_IMAGE_UPDATE -> []
+        RSU_STATUS

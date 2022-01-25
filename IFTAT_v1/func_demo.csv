@@ -1,0 +1,47 @@
+,FUNC_NAME
+0,void clkmgr_close(clkmgr_handle_t handle)
+1,"sdm_return_t clkmgr_register_pre_callback(clkmgr_handle_t handle, clkmgr_pre_callback fn, clkmgr_cb_type_t type)"
+2,static sdm_return_t call_clkmgr_pre_callbacks(clkmgr_context_t* const clkmgr_context_ptr)
+3,"sdm_return_t clkmgr_register_post_callback(clkmgr_handle_t handle, clkmgr_post_callback fn, clkmgr_cb_type_t type)"
+4,static sdm_return_t call_clkmgr_post_callbacks(clkmgr_context_t* const clkmgr_context_ptr)
+5,"sdm_return_t clkmgr_set_mode(clkmgr_handle_t handle, clkmgr_mode_t mode)"
+6,"sdm_return_t clkmgr_clock_speed_stage(clkmgr_handle_t handle, clkmgr_oscclk_speed_t speed, clkmgr_asclk_speed_t asclk)"
+7,sdm_return_t clkmgr_clock_update(clkmgr_handle_t handle)
+8,"static sdm_return_t calculate_clock_divisor_integer(uint32_t* divisor, uint32_t input_frequency, uint32_t output_frequency)"
+9,sdm_return_t clkmgr_setup_divider(clkmgr_handle_t handle)
+10,"sdm_return_t clkmgr_get_current_pll_settings(clkmgr_handle_t handle, clkmgr_pll_settings_t* current_settings_ptr)"
+11,"sdm_return_t clkmgr_get_staged_pll_settings(clkmgr_handle_t handle, clkmgr_pll_settings_t* staged_settings_ptr)"
+12,static sdm_return_t clkmgr_validate_staged_clock(clkmgr_context_t* const clkmgr_context_ptr)
+13,"static void clkmgr_stash_initial_clock_settings(clkmgr_context_t* const clkmgr_context_ptr, clkmgr_pll_settings_t default_clock)"
+14,sdm_return_t clkmgr_set_clk_slices_to_default(clkmgr_handle_t handle)
+15,"sdm_return_t clkmgr_set_safe_ref_clk_div(clkmgr_handle_t handle, clkmgr_intosc_div_t value)"
+16,sdm_return_t clkmgr_clk_bypass_all(clkmgr_handle_t handle)
+17,"static void clkmgr_clk_bypassr_clear(clkmgr_context_t* const clkmgr_context_ptr, uint32_t bypassr_val)"
+18,sdm_return_t clkmgr_clk_unbypass_all(clkmgr_handle_t handle)
+19,sdm_return_t clkmgr_clk_unbypass_except_ctrl(clkmgr_handle_t handle)
+20,static uint32_t __inline pll1_calc_divr(uint32_t refclk_mhz)
+21,static uint32_t pll1_calc_divq()
+22,static uint32_t pll_get_range(uint32_t clk_post_div_mhz)
+23,static uint32_t pll2_calc_divr(uint32_t entry)
+24,static uint32_t pll2_calc_divq()
+25,sdm_return_t clkmgr_set_cnoc_half_speed(clkmgr_handle_t handle)
+26,sdm_return_t clkmgr_set_cnoc_full_speed(clkmgr_handle_t handle)
+27,sdm_return_t clkmgr_enable_exact_user_clk(clkmgr_handle_t handle)
+28,sdm_return_t clkmgr_disable_exact_user_clk(clkmgr_handle_t handle)
+29,static sdm_return_t clkmgr_reset_clock_settings(clkmgr_context_t* const clkmgr_context_ptr)
+30,static sdm_return_t clkmgr_stage_clock_max_usrclk_speed(clkmgr_context_t* const clkmgr_context_ptr)
+31,"static sdm_return_t clkmgr_update_data_plane_speed_stage(clkmgr_context_t* const clkmgr_context_ptr, clkmgr_data_plane_speed_t data_plane_speed)"
+32,"static sdm_return_t clkmgr_wait_for_pll_lock(clkmgr_context_t* const clkmgr_context_ptr, clkmgr_pll_t pll_ident)"
+33,sdm_return_t clkmgr_pll_is_locked(clkmgr_handle_t handle)
+34,"sdm_return_t clkmgr_setup_gpio_debounce_logic(clkmgr_handle_t handle, uint32_t counter)"
+35,"sdm_return_t clkmgr_qspi_clock_gate_control(clkmgr_handle_t handle, bool control)"
+36,sdm_return_t clkmgr_set_qspi_clock_intosc_mode(clkmgr_handle_t handle)
+37,sdm_return_t clkmgr_clk_internal(clkmgr_handle_t handle)
+38,"static void clkmgr_data_clk_scr_select(clkmgr_context_t* const clkmgr_context_ptr, uint32_t sel)"
+39,"static void clkmgr_data_clk_set_cnt(clkmgr_context_t* const clkmgr_context_ptr, uint32_t cnt)"
+40,"sdm_return_t clkmgr_data_clk_mux_freq_change_cnt(clkmgr_handle_t handle, uint32_t sel, uint32_t cnt, uint32_t bypass)"
+41,static uint32_t refclk_div_get(uint32_t refclk_mhz)
+42,sdm_return_t clkmgr_set_clk_en_data(clkmgr_handle_t handle)
+43,sdm_return_t clkmgr_clear_clk_en_data(clkmgr_handle_t handle)
+44,"sdm_return_t get_frequency_of_intosc(clkmgr_handle_t handle, uint32_t *retval)"
+45,sdm_return_t clkmgr_set_sense_clk_divider(clkmgr_handle_t handle)

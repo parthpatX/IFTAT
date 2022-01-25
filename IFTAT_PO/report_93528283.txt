@@ -1,0 +1,35 @@
+REGTEST_REPOSITORY: /p/psg/swip/regtestfiles/main/current/
+
+quartus_pfg -c -o pem_file=signing_key_private_chain1_2.pem -o qek_file=aes.qek -o password=password.txt -o option_as.txt encryption_as_115mhz.sof encryption_as_115mhz.jic
+	|___ INI FILE: /tmp/arc_93528283/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_39_SHA256/type1/fm61/compile/bitstream/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programming File Generator was successful. 0 errors, 0 warnings
+
+quartus_pfg -c unsigned_as_115mhz.sof unsigned_as_115mhz.rbf
+	|___ INI FILE: /tmp/arc_93528283/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_39_SHA256/type1/fm61/compile/bitstream/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programming File Generator was successful. 0 errors, 0 warnings
+
+quartus_pfg -c -o pem_file=signing_key_private_chain1_2.pem -o qek_file=aes.qek -o password=password.txt -o option_jtag.txt encryption_as_115mhz.sof encryption_as_115mhz.rbf
+	|___ INI FILE: /tmp/arc_93528283/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_39_SHA256/type1/fm61/compile/bitstream/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programming File Generator was successful. 0 errors, 0 warnings
+
+quartus_pfg --helper_image -o option_provision.txt provision_cmf.rbf
+	|___ INI FILE: /tmp/arc_93528283/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_39_SHA256/type1/fm61/compile/bitstream/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programming File Generator was successful. 0 errors, 0 warnings
+
+quartus_pfg -c helper.pfg
+	|___ INI FILE: /tmp/arc_93528283/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_39_SHA256/type1/fm61/compile/bitstream/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programming File Generator was successful. 0 errors, 0 warnings
+
+quartus_pfg --ccert -o option_efuse_ccert.txt -o qek_file=aes.qek -o password=password.txt -o pem_file=signing_key_private_chain1_1.pem -o qky_file=keychain_chain1_1_per2_aes.qky aes.ccert
+	|___ INI FILE: /tmp/arc_93528283/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_39_SHA256/type1/fm61/compile/bitstream/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programming File Generator was successful. 0 errors, 0 warnings
+
+quartus_pfg -c -o pem_file=signing_key_private_chain1_2.pem -o qek_file=aes2.qek -o password=password.txt -o option_jtag.txt encryption_as_115mhz.sof encryption_as_115mhz_aes2.rbf
+	|___ INI FILE: /tmp/arc_93528283/_0/regtest/ppe/security/fm/fm61/SEC_ENCRYPTION_39_SHA256/type1/fm61/compile/bitstream/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programming File Generator was successful. 0 errors, 0 warnings
+
+
+TEST STATUS: Passed
+
+SYSTEM CONSOLE COMMANDS:
+

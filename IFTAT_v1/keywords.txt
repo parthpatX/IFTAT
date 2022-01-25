@@ -1,0 +1,34 @@
+void
+static
+STATIC
+atpr_response_type_t
+atpr_enable_t
+bool
+atpr_freq_t
+int32_t
+main_descriptor_t
+signature_descriptor_t
+sdm_return_t
+uint32_t
+bitstream_source_select_t
+in_buf_src_sel_t
+bitstream_control_t
+in_buf_handle_t
+dma_handle_t
+sha_handle_t
+cnoc_handle_t
+clkmgr_handle_t
+config_dma_hdlr_owner_t
+pre_handoff_data_t
+pa_return_t
+inline
+volatile uint32_t
+const uint32_t
+config_state_t
+config_status_t
+comp_config_handle_t
+mbox_config_source_t
+cvp_types_enum_t
+hash_mgr_handle_t
+slot_table_t
+

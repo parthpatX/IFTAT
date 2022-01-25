@@ -1,0 +1,19 @@
+REGTEST_REPOSITORY: /p/psg/swip/w/vckok/fm/emulation/
+
+quartus_pfg -c -o pem_file=signing_key_private_chain1_2.pem -o option_jtag.txt andor193_authentication.sof andor_auth_novid.rbf
+	|___ INI FILE: /tmp/arc_389177037/_0/regtest/andor_emu_sha384_pa_vidoff_intosc_phyfuse_sdm_debug_official_prov/loop_0/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programming File Generator was successful. 0 errors, 0 warnings
+
+quartus_pfg --helper_image -o option_provision.txt provision_cmf.rbf
+	|___ INI FILE: /tmp/arc_389177037/_0/regtest/andor_emu_sha384_pa_vidoff_intosc_phyfuse_sdm_debug_official_prov/loop_0/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programming File Generator was successful. 0 errors, 0 warnings
+
+quartus_pfg -c andor_unsigned.sof andor_novid.rbf
+	|___ INI FILE: /tmp/arc_389177037/_0/regtest/andor_emu_sha384_pa_vidoff_intosc_phyfuse_sdm_debug_official_prov/loop_0/quartus.ini
+			|___ STATUS: Info: Quartus Prime Programming File Generator was successful. 0 errors, 0 warnings
+
+
+TEST STATUS: Passed
+
+SYSTEM CONSOLE COMMANDS:
+

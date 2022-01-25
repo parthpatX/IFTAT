@@ -1,0 +1,898 @@
+
+===========================================================================
+Welcome - the SWIP regtest framework is running on the farm
+
+Framework location: /p/psg/flows/sw/regutils/21.3/2/linux64/framework
+Job conf: /p/psg/data/parthpat/job/20210802/0300/300438569/reg_job_confs/23146361/0.dat
+PeRT record ID: 433201756
+Current time: Mon Aug  2 03:43:53 2021
+===========================================================================
+Info: Setting ENV{ FB_AUTO_FILER } to off
+Info: Setting ENV{ TEST_RUN_RESULT_ID } to 433201756
+Info: Setting ENV{ REG_RETURN_FILE_MODE } to all
+Info: Setting ENV{ REG_JOB_CONF_FILE } to /p/psg/data/parthpat/job/20210802/0300/300438569/reg_job_confs/23146361/0.dat
+Info: Setting ENV{ EDA_EVALUATION_MODE } to off
+Info: Setting ENV{ TEST_CASE_ID } to 1399451
+Info: Setting ENV{ PARENT_REPOSITORY } to /p/psg/data/parthpat/regtest/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config
+Info: Setting ENV{ REG_FARM_OS } to linux64
+Info: Setting ENV{ TEST_RUN_ID } to 5594274
+Info: Setting ENV{ REG_INITIAL_EXE_DIR_PATH } to /p/psg/data/parthpat/regtest/
+Info: Setting ENV{ CUSTOM_PERMISSION_MODE } to 0775
+Info: Setting ENV{ REG_FARM_TIMEOUT } to 7200
+Info: Setting ENV{ REGTEST_REPOSITORY } to /p/psg/data/parthpat/qshell_quartuskit/p4/
+Info: Setting ENV{ REG_USE_LSF_TIMEOUT } to 0
+Info: Setting ENV{ REG_AUTO_OVERLAY } to 0
+Info: Setting ENV{ ACTIVATE_MODE } to off
+Info: Setting ENV{ REG_EXE_USE_LOCAL_DISK } to 1
+Info: Setting ENV{ REG_EXTERNAL_EXE_DIR_PATH } to /p/psg/data/parthpat/regtest/
+Info: Setting ENV{ REG_AUTO_FILE_SPRS } to 0
+Info: Setting ENV{ REG_REQUIREMENTS } to python/2.7.13 testkit devacds firmware/nfs/site/disks/psg_data_36/parthpat/qshell_fw/firmware
+Info: Setting ENV{ REG_CACHE_RESOURCES } to 0
+Info: Setting ENV{ REG_AUTO_FILE_FBS } to 0
+Info: Setting ENV{ REG_LOCAL_ROOT_DIR_PATH } to /p/psg/data/parthpat/qshell_quartuskit/p4/regtest/
+Info: Setting ENV{ QUARTUS_NUM_PARALLEL_PROCESSORS } to 2
+Info: Setting ENV{ REG_SKIP_PREPROCESS_RESULTS } to 0
+Info: Setting ENV{ REG_EXE_MODE } to farm
+Info: Setting ENV{ REG_RETURN_FILE_COMPRESS } to 0
+Info: Setting ENV{ TEST_CASE_PATH } to regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/jtagtest_15_DMD
+Info: Setting ENV{ MODULAR_TEST_CASE_ID } to 35805387
+Info: Running test: /p/psg/data/parthpat/qshell_quartuskit/p4/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/ --reg-subtest-name=jtagtest_15_DMD --reg-cmd="spawn_python.pl" --python_arg="--msel=15,--file1=dm_designDMD.rbf" --python_test="jtagtest.py" --rev="DMD" --debug_cmf="0" --brd_type="emulator/generic/" --interface="jtag" --reg-subtest-random="1"
+Info: Command to re-run subtest locally, excluding parent subtest(s):
+   reg_exe \
+     --reg-subtest-name=jtagtest_15_DMD \
+     --reg-cmd=spawn_python.pl \
+     --python_arg=--msel=15,--file1=dm_designDMD.rbf \
+     --python_test=jtagtest.py \
+     --rev=DMD \
+     --debug_cmf=0 \
+     --brd_type=emulator/generic/ \
+     --interface=jtag \
+     --reg-subtest-random=1
+
+Info: Command to re-run subtest locally, including parent subtest(s):
+   reg_exe \
+     --python_arg=--msel=15,--file1=dm_designDMD.rbf \
+     --python_test=jtagtest.py \
+     --rev=DMD \
+     --debug_cmf=0 \
+     --brd_type=emulator/generic/ \
+     --interface=jtag \
+     --reg-subtest-random=1
+
+Info: Copying regtest to local hard drive for execution
+Info: Test will execute in /tmp/arc_300439636/_0/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/
+Info: Copying regtest source from REGTEST_REPOSITORY to execution directory: /p/psg/data/parthpat/qshell_quartuskit/p4/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/ -> /tmp/arc_300439636/_0/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/ 
+Info: Time to copy regtest source to execution directory: 0.128291 seconds
+Info: Processing reg_sync_dirs...
+   Items to be synced are listed in reg_sync_dirs_log.txt
+Info: reg_sync_dirs processing took 70.499867 seconds
+Info: Processing reg_copy_files...
+   Items to be copied to the regtest directory are listed in reg_copy_files_log.txt
+Info: reg_copy_files processing took 0.053735 seconds
+Info: Copying files to subtest execution directory...
+   Elapsed time: 0.164237 seconds
+
+Info: Regtest execution entry...
+Info: Current time is Mon Aug  2 03:45:05 2021
+
+Info: Setup Quartus2.ini ... Done.
+
+Info: Test execution time will be limited to 2h
+Info: Current time is Mon Aug  2 03:45:06 2021
+
+Info: Executing regtest...
+Info: Current time is Mon Aug  2 03:45:06 2021
+Info: Execution location: /tmp/arc_300439636/_0/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/jtagtest_15_DMD/
+Disable debug dump cmf
+
+Skipping Checking board connection as running for emulator ...................
+Warning: Board revision is defined by user : DMD
+
+DEBUG_INFO :: DUT_REV      = DMD
+DEBUG_INFO :: DUT_BASE_DIE = DMD
+Info: Getting intermediate result files from Parent test...
+Delete all sof files
+
+TEST_DEBUG :: THE EMULATOR_DEVICE FILE SETS ENV EMULATOR_DEVICE with ==> DMD
+TEST_INFO :: SUCCESSFULLY CALLED ==> SETENV BOARD_RESOURCE 'emulator/fm8'
+`/tmp/arc_300439636/_0/regtest/esv/fw_validation/root/util/DMD/jtag/emulator_dmd_conf/emulator_dmd.conf' -> `./emulator_dmd.conf'
+
+DEBUG :: Copying file /tmp/arc_300439636/_0/regtest/esv/fw_validation/root/util/DMD/jtag/emulator_dmd_conf/emulator_dmd.conf or /tmp/arc_300439636/_0/regtest/esv/fw_validation/emu/dmd/utils/conf/jtag/emulator_dmd_conf/emulator_dmd.conf ..........................Apply setting inside configuration file emulator_dmd.conf
+reading setting model: dm_smu_emu_latest
+reading setting testdir :/nfs/site/disks/fm6_emu_2/users/sguttula/Limited_Sign_keys_DMTC1A/dm_fwval_bootrom_jtag_rearch
+reading setting workdir: /nfs/site/disks/dmd_emulation_fm_1/users/$USER/output
+reading setting do_file: pice.do
+reading setting timeout: 8000
+Bringing up the emulator in Folsom.....
+    ---------------------------------------------------------------------------------------------------------------------------------------------------
+   | Model          : dm_smu_emu_latest                                                                                                                |
+   | Test Directory : /nfs/site/disks/fm6_emu_2/users/sguttula/Limited_Sign_keys_DMTC1A/dm_fwval_bootrom_jtag_rearch                                   |
+   | Job Directory  : /nfs/site/disks/dmd_emulation_fm_1/users/parthpat/output/300439636                                                               |
+   | Do File        : pice.do                                                                                                                          |
+    ---------------------------------------------------------------------------------------------------------------------------------------------------
+Scheduling...
+source /p/psg/data/kengleon/emulator/resources/proj_setup.csh
+psg_emurun -mail_nb no -debug -remote_root /nfs/site/disks/psg_fm_disk001/release/psg_tools -model dm_smu_emu_latest -testdir /nfs/site/disks/fm6_emu_2/users/sguttula/Limited_Sign_keys_DMTC1A/dm_fwval_bootrom_jtag_rearch -workdir /nfs/site/disks/dmd_emulation_fm_1/users/parthpat/output/300439636 -do_file pice.do -timeout 8000  -setenv EMU_PICE_HOSTNAME=scc022090.sc.intel.com -setenv EMU_PICE_TEST_DIR=/tmp/arc_300439636/_0/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/jtagtest_15_DMD 
+Scheduling complete. Job id is 8096513.
+Waiting for job to begin...
+Job has begun. 8096513 on fmev0119.fm.intel.com:1127
+Waiting for emulator jtag to become responsive...
+Emulator is responsive after 105 seconds. jtagconfig results:
+1) Simulator [fmev0119.fm.intel.com:1127]
+   (JTAG Server Version 22.1.0 Internal Build 1 07/29/2021 SC Pro Edition)
+  F34FF0DD    (IR=10)
+
+  Captured DR after reset = (F34FF0DD) [32]
+  Captured IR after reset = (001) [10]
+  Captured Bypass after reset = (0) [1]
+  Captured Bypass chain = (0) [1]
+
+
+ TEST_INFO :: Time consumed to start the emulator and get the prompt back == 534python_arg: --msel=15 --file1=dm_designDMD.rbf
+Running python test: python jtagtest.py --msel=15 --file1=dm_designDMD.rbf --board_rev=DMD...
+
+
+********** Warning | fwval is renamed to pycv                                                    *********
+**********         | to remove this warning, use "import pycv" or "import pycv as fwval" instead *********
+
+
+Set MSEL to: 15
+Set file_path1 to: dm_designDMD.rbf
+INFO :: leftover syscon pid(s): []
+INFO :: My device_idx in JTAGTEST : 1
+INFO :: Identifying platform family now...
+INFO :: Retrieving platform information now... 
+
+INFO :: Searching for DUT_FAMILY...
+INFO :: DUT_FAMILY does not exist!
+
+INFO :: Searching for BOARD_RESOURCE...
+INFO :: Detected BOARD_RESOURCE: emulator/fm8
+INFO :: Running platform matching now...
+INFO :: Matching data found. Assigning board family now
+INFO :: Successfully changed DUT_FAMILY name => DUT_FAMILY: diamondmesa
+   Info     | PythonCV >> Configuration Validation with Python2/3
+   Info     | For documentation, please visit https://goto/pycv
+   Info     | Python2 executable: /p/psg/ctools/python/2.7.13/linux64/suse/bin/python
+   Info     | PYCV source: /nfs/site/disks/psg_flowssw_1/testkit/20.1/236/pythoncv
+   Info     | Initialize platform emulator
+   CMD      | jtagconfig --debug
+   CMD      | emulator.sh --get_workstation
+   Info     | Emulator host machine is fmev0119.fm.intel.com:1127
+   Info     | Open system console /p/psg/swip/releases2/quartuskit/22.1/1/linux64/not_shipped/syscon/sopc_builder/bin/system-console-nios2r2
+   Info     |   Opened at port: 33201
+   Info     | TimeStamp: [open_system_console()] Elapsed: 16.792 s
+   SysConC  | get_service_paths master
+   SysConR  |   0) /connections/tcp_master/veloce/master 
+            |   1) {/devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0}
+            |   2) {/devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0/slave_0/nios2r2}
+   Info     | Auto-pick 0 from respond(s) because it is first element that meet all the criteria
+   SysConC  | claim_service master /connections/tcp_master/veloce/master  claimGroup
+   SysConR  |   0) /channels/remote1/claimGroup/master_1
+   Info     | Select jtag BFM configuration
+   Warning  | Connector power (power) broadcast powerup
+   SysConC  | close_service master /channels/remote1/claimGroup/master_1
+   SysConR  | No respond
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.014 s
+   CMD      | emulator.sh --get_workstation
+   Info     | Emulator host machine is fmev0119.fm.intel.com:1127
+   Info     | Open system console /p/psg/swip/releases2/quartuskit/22.1/1/linux64/not_shipped/syscon/sopc_builder/bin/system-console-nios2r2
+   Info     |   Opened at port: 40559
+   Info     | TimeStamp: [open_system_console()] Elapsed: 12.075 s
+   SysConC  | get_service_paths master
+   SysConR  |   0) /connections/tcp_master/veloce/master 
+            |   1) {/devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0}
+            |   2) {/devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0/slave_0/nios2r2}
+   Info     | Auto-pick 0 from respond(s) because it is first element that meet all the criteria
+   SysConC  | claim_service master /connections/tcp_master/veloce/master  claimGroup
+   SysConR  |   0) /channels/remote1/claimGroup/master_1
+   CMD      | jtagconfig
+   CMD      | jtagconfig
+
+INFO :: Power off
+   Info     | powering down the dut
+   Warning  | Connector power (power) broadcast powerdown
+   SysConC  | close_service master /channels/remote1/claimGroup/master_1
+   SysConR  | No respond
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.013 s
+   CMD      | emulator.sh --get_workstation
+   Info     | Emulator host machine is fmev0119.fm.intel.com:1127
+   Info     | Open system console /p/psg/swip/releases2/quartuskit/22.1/1/linux64/not_shipped/syscon/sopc_builder/bin/system-console-nios2r2
+   Info     |   Opened at port: 40402
+   Info     | TimeStamp: [open_system_console()] Elapsed: 11.942 s
+   SysConC  | get_service_paths master
+   SysConR  |   0) /connections/tcp_master/veloce/master 
+            |   1) {/devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0}
+            |   2) {/devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0/slave_0/nios2r2}
+   Info     | Auto-pick 0 from respond(s) because it is first element that meet all the criteria
+   SysConC  | claim_service master /connections/tcp_master/veloce/master  claimGroup
+   SysConR  |   0) /channels/remote1/claimGroup/master_1
+INFO :: Set nconfig = 0
+INFO :: Delay 1000 milliseconds
+INFO :: Power on
+
+   Warning  | Connector power (power) broadcast powerup
+   SysConC  | close_service master /channels/remote1/claimGroup/master_1
+   SysConR  | No respond
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.013 s
+   CMD      | emulator.sh --get_workstation
+   Info     | Emulator host machine is fmev0119.fm.intel.com:1127
+   Info     | Open system console /p/psg/swip/releases2/quartuskit/22.1/1/linux64/not_shipped/syscon/sopc_builder/bin/system-console-nios2r2
+   Info     |   Opened at port: 34683
+   Info     | TimeStamp: [open_system_console()] Elapsed: 12.044 s
+   SysConC  | get_service_paths master
+   SysConR  |   0) /connections/tcp_master/veloce/master 
+            |   1) {/devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0}
+            |   2) {/devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0/slave_0/nios2r2}
+   Info     | Auto-pick 0 from respond(s) because it is first element that meet all the criteria
+   SysConC  | claim_service master /connections/tcp_master/veloce/master  claimGroup
+   SysConR  |   0) /channels/remote1/claimGroup/master_1
+INFO :: Delay 1000 milliseconds
+
+V0 :: Verify Pin
+INFO :: index number for arc-resource-page = 
+INFO :: Time took for  nSTATUS=0  is = 0ms
+NSTATUS = 0
+INFO :: Measured NSTATUS: 0 matched expectation
+INFO :: Time took for  CONFIG_DONE=0 is = 0ms
+CONFIG_DONE = 0
+INFO :: Measured CONFIG_DONE: 0 matched expectation
+INFO :: Pin result same as expectation
+
+V1 :: Verify status
+(4, ())
+   SysConC  | get_service_paths packet
+   SysConR  |   0) /connections/tcp_master/veloce 
+            |   1) /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/packet
+   Info     | Auto-pick 1 from respond(s) because it is first element that meet most of the criteria (10/6)
+   SysConC  | claim_service packet /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/packet ""
+   SysConR  |   0) /channels/remote1/(lib)/packet_1
+   SysConC  | close_service packet /channels/remote1/(lib)/packet_1
+   SysConR  | No respond
+INFO :: Send CONFIG_STATUS :: Response [12288, 204800, 327680, 255]
+INFO :: nSTATUS = 0
+INFO :: nCONFIG = 0
+INFO :: AVST READY = 0
+INFO :: Active msel = 15
+INFO :: POR msel = 15
+INFO :: CONFIG_STATUS now in bootrom stage as expected
+INFO :: (RE)CONFIG_STATUS result same as expectation
+
+0: Toggle nconfig high
+
+Updating expectations...
+Expectations updated
+
+V2 :: Verify Pin
+INFO :: index number for arc-resource-page = 
+INFO :: Time took for  nSTATUS=1  is = 0ms
+NSTATUS = 1
+INFO :: Measured NSTATUS: 1 matched expectation
+INFO :: Time took for  CONFIG_DONE=0 is = 0ms
+CONFIG_DONE = 0
+INFO :: Measured CONFIG_DONE: 0 matched expectation
+INFO :: Pin result same as expectation
+
+V3 :: Verify status
+(4, ())
+   SysConC  | get_service_paths packet
+   SysConR  |   0) /connections/tcp_master/veloce 
+            |   1) /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/packet
+   Info     | Auto-pick 1 from respond(s) because it is first element that meet most of the criteria (10/6)
+   SysConC  | claim_service packet /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/packet ""
+   SysConR  |   0) /channels/remote1/(lib)/packet_1
+   SysConC  | close_service packet /channels/remote1/(lib)/packet_1
+   SysConR  | No respond
+INFO :: Send CONFIG_STATUS :: Response [12288, 204800, 327680, 3221225727]
+INFO :: nSTATUS = 1
+INFO :: nCONFIG = 1
+INFO :: AVST READY = 0
+INFO :: Active msel = 15
+INFO :: POR msel = 15
+INFO :: CONFIG_STATUS now in bootrom stage as expected
+INFO :: (RE)CONFIG_STATUS result same as expectation
+
+1: Toggle nconfig low
+
+Updating expectations...
+Expectations updated
+
+V4 :: Verify Pin
+INFO :: index number for arc-resource-page = 
+INFO :: Time took for  nSTATUS=0  is = 0ms
+NSTATUS = 0
+INFO :: Measured NSTATUS: 0 matched expectation
+INFO :: Time took for  CONFIG_DONE=0 is = 0ms
+CONFIG_DONE = 0
+INFO :: Measured CONFIG_DONE: 0 matched expectation
+INFO :: Pin result same as expectation
+
+V5 :: Verify status
+(4, ())
+   SysConC  | get_service_paths packet
+   SysConR  |   0) /connections/tcp_master/veloce 
+            |   1) /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/packet
+   Info     | Auto-pick 1 from respond(s) because it is first element that meet most of the criteria (10/6)
+   SysConC  | claim_service packet /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/packet ""
+   SysConR  |   0) /channels/remote1/(lib)/packet_1
+   SysConC  | close_service packet /channels/remote1/(lib)/packet_1
+   SysConR  | No respond
+INFO :: Send CONFIG_STATUS :: Response [12288, 204800, 327680, 255]
+INFO :: nSTATUS = 0
+INFO :: nCONFIG = 0
+INFO :: AVST READY = 0
+INFO :: Active msel = 15
+INFO :: POR msel = 15
+INFO :: CONFIG_STATUS now in bootrom stage as expected
+INFO :: (RE)CONFIG_STATUS result same as expectation
+
+2: Toggle nconfig high
+
+Updating expectations...
+Expectations updated
+
+V6 :: Verify Pin
+INFO :: index number for arc-resource-page = 
+INFO :: Time took for  nSTATUS=1  is = 0ms
+NSTATUS = 1
+INFO :: Measured NSTATUS: 1 matched expectation
+INFO :: Time took for  CONFIG_DONE=0 is = 0ms
+CONFIG_DONE = 0
+INFO :: Measured CONFIG_DONE: 0 matched expectation
+INFO :: Pin result same as expectation
+
+V7 :: Verify status
+(4, ())
+   SysConC  | get_service_paths packet
+   SysConR  |   0) /connections/tcp_master/veloce 
+            |   1) /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/packet
+   Info     | Auto-pick 1 from respond(s) because it is first element that meet most of the criteria (10/6)
+   SysConC  | claim_service packet /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/packet ""
+   SysConR  |   0) /channels/remote1/(lib)/packet_1
+   SysConC  | close_service packet /channels/remote1/(lib)/packet_1
+   SysConR  | No respond
+INFO :: Send CONFIG_STATUS :: Response [12288, 204800, 327680, 3221225727]
+INFO :: nSTATUS = 1
+INFO :: nCONFIG = 1
+INFO :: AVST READY = 0
+INFO :: Active msel = 15
+INFO :: POR msel = 15
+INFO :: CONFIG_STATUS now in bootrom stage as expected
+INFO :: (RE)CONFIG_STATUS result same as expectation
+
+
+   SysConC  | get_service_paths packet
+   SysConR  |   0) /connections/tcp_master/veloce 
+            |   1) /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/packet
+   Info     | Auto-pick 1 from respond(s) because it is first element that meet most of the criteria (10/6)
+   SysConC  | claim_service packet /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/packet ""
+   SysConR  |   0) /channels/remote1/(lib)/packet_1
+Send CONFIG_JTAG :: Response [0]
+INFO :: CONFIG_JTAG Command passed as EXPECTED
+
+C0 :: Sending Bitstream Via JTAG
+INFO :: Opening file ==> dm_designDMD.rbf successfully to read the bitstream content
+   Info     | Platform emulator jtag_device1 connector send 323584 Bytes of data
+   SysConC  | close_service packet /channels/remote1/(lib)/packet_1
+   SysConR  | No respond
+   SysConC  | get_service_paths device
+   SysConR  |   0) /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator
+   Info     | Auto-pick 0 from respond(s) because it is first element that meet most of the criteria (9/6)
+   SysConC  | device_get_connections /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator
+   SysConR  |   0) {/connections/Simulator on localhost (fmev0119.fm.intel.com:1127)/FM8_EMU@1}
+   SysConC  | claim_service sld {/connections/Simulator on localhost (fmev0119.fm.intel.com:1127)/FM8_EMU@1} c1 {ir:1} {ir:2} {ir:6} {ir:23} {ir:513} {ir:514} {ir:520} {ir:1020} {ir:1021} {ir:1022}
+   SysConR  |   0) /channels/remote1/c1/sld_1
+   Progress |   [                    ] 1%   Progress |   [                    ] 2%   Progress |   [*                   ] 7%   Progress |   [**                  ] 12%   Progress |   [**                  ] 13%   Progress |   [***                 ] 19%   Progress |   [****                ] 24%   Progress |   [*****               ] 29%   Progress |   [******              ] 34%   Progress |   [*******             ] 39%   Progress |   [********            ] 44%   Progress |   [*********           ] 49%   Progress |   [**********          ] 54%   Progress |   [***********         ] 59%   Progress |   [************        ] 64%   Progress |   [*************       ] 69%   Progress |   [**************      ] 74%   Progress |   [***************     ] 79%   Progress |   [****************    ] 83%   Progress |   [****************    ] 84%   Progress |   [*****************   ] 87%   Progress |   [******************  ] 92%   Progress |   [******************* ] 97%   Progress |   [********************] 100%
+   SysConC  | close_service sld /channels/remote1/c1/sld_1
+   SysConR  | No respond
+   Warning  | Connector jtag_device1 (jtag) broadcast dut_program
+   SysConC  | close_service master /channels/remote1/claimGroup/master_1
+   SysConR  | No respond
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.13 s
+   CMD      | emulator.sh --get_workstation
+   Info     | Emulator host machine is fmev0119.fm.intel.com:1127
+   Info     | Open system console /p/psg/swip/releases2/quartuskit/22.1/1/linux64/not_shipped/syscon/sopc_builder/bin/system-console-nios2r2
+   Info     |   Opened at port: 48872
+   Info     | TimeStamp: [open_system_console()] Elapsed: 12.704 s
+   SysConC  | get_service_paths master
+   SysConR  |   0) /connections/tcp_master/veloce/master 
+            |   1) {/devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0}
+            |   2) {/devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/CJTAG/(ID=1) SDM CJTAG Controller/SLD Interface/sld2mm_0/slave_0/nios2r2}
+   Info     | Auto-pick 0 from respond(s) because it is first element that meet all the criteria
+   SysConC  | claim_service master /connections/tcp_master/veloce/master  claimGroup
+   SysConR  |   0) /channels/remote1/claimGroup/master_1
+INFO :: Successfully loaded bitstream as expected
+
+Updating expectations...
+Expectations updated
+
+V8 :: Verify Pin
+INFO :: index number for arc-resource-page = 
+INFO :: Time took for  nSTATUS=1  is = 0ms
+NSTATUS = 1
+INFO :: Measured NSTATUS: 1 matched expectation
+INFO :: Time took for  CONFIG_DONE=1 is = 0ms
+CONFIG_DONE = 1
+INFO :: Measured CONFIG_DONE: 1 matched expectation
+INFO :: Pin result same as expectation
+
+V9 :: Verify status
+(4, ())
+   SysConC  | get_service_paths packet
+   SysConR  |   0) /connections/tcp_master/veloce 
+            |   1) /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/packet
+   Info     | Auto-pick 1 from respond(s) because it is first element that meet most of the criteria (10/6)
+   SysConC  | claim_service packet /devices/FM8_EMU@1#fmev0119.fm.intel.com:1127#Simulator/(link)/JTAG/packet ""
+   SysConR  |   0) /channels/remote1/(lib)/packet_1
+   SysConC  | close_service packet /channels/remote1/(lib)/packet_1
+   SysConR  | No respond
+INFO :: Send CONFIG_STATUS :: Response [24576, 0, 0, 3221225487, 3, 0, 0]
+INFO :: (re)config_status['STATE']              = 0x0
+INFO :: (re)config_status['VERSION']            = 0x0
+INFO :: (re)config_status['FLASH_IDX']          = 0x0
+INFO :: (re)config_status['NSTATUS']            = 0x1
+INFO :: (re)config_status['NCONFIG']            = 0x1
+INFO :: (re)config_status['MSEL_LATCHED']       = 0xf
+INFO :: (re)config_status['CONFIG_DONE']        = 0x1
+INFO :: (re)config_status['INIT_DONE']          = 0x1
+INFO :: (re)config_status['CVP_DONE']           = 0x0
+INFO :: (re)config_status['SEU_ERROR']          = 0x0
+INFO :: (re)config_status['POR_WAIT']           = 0x0
+INFO :: (re)config_status['TRAMP_DSBLE']        = 0x0
+INFO :: (re)config_status['PROVISION_CMF']      = 0x0
+INFO :: (re)config_status['ERROR_LOCATION']     = 0x0
+INFO :: (re)config_status['ERROR_DETAILS']      = 0x0
+Comparing (re)config_status with expectation...
+INFO :: (RE)CONFIG_STATUS result same as expectation
+
+3: Toggle nconfig low
+
+Updating expectations...
+Expectations updated
+
+V10 :: Verify Pin
+INFO :: index number for arc-resource-page = 
+INFO :: Time took for  nSTATUS=0  is = 4800ms
+NSTATUS = 0
+INFO :: Measured NSTATUS: 0 matched expectation
+INFO :: Time took for  CONFIG_DONE=0 is = 0ms
+CONFIG_DONE = 0
+INFO :: Measured CONFIG_DONE: 0 matched expectation
+INFO :: Pin result same as expectation
+
+4: Toggle nconfig high
+
+Updating expectations...
+Expectations updated
+
+V11 :: Verify Pin
+INFO :: index number for arc-resource-page = 
+INFO :: Time took for  nSTATUS=1  is = 1860ms
+NSTATUS = 1
+INFO :: Measured NSTATUS: 1 matched expectation
+INFO :: Time took for  CONFIG_DONE=0 is = 0ms
+CONFIG_DONE = 0
+INFO :: Measured CONFIG_DONE: 0 matched expectation
+INFO :: Pin result same as expectation
+
+5: Toggle nconfig low
+
+Updating expectations...
+Expectations updated
+
+V12 :: Verify Pin
+INFO :: index number for arc-resource-page = 
+INFO :: Time took for  nSTATUS=0  is = 7815ms
+NSTATUS = 0
+INFO :: Measured NSTATUS: 0 matched expectation
+INFO :: Time took for  CONFIG_DONE=0 is = 0ms
+CONFIG_DONE = 0
+INFO :: Measured CONFIG_DONE: 0 matched expectation
+INFO :: Pin result same as expectation
+
+6: Toggle nconfig high
+
+Updating expectations...
+Expectations updated
+
+V13 :: Verify Pin
+INFO :: index number for arc-resource-page = 
+INFO :: Time took for  nSTATUS=1  is = 3875ms
+NSTATUS = 1
+INFO :: Measured NSTATUS: 1 matched expectation
+INFO :: Time took for  CONFIG_DONE=0 is = 0ms
+CONFIG_DONE = 0
+INFO :: Measured CONFIG_DONE: 0 matched expectation
+INFO :: Pin result same as expectation
+INFO_EMU :: emu_hello
+emu_gtrace_dump:00006AB1:
+expected size:27313
+received: 27313 bytes in 0.008 s
+
+02-August-2021 04:10:44
+
+---------------g_trace start------------->
+
+CHECKSUM = 1795451145
+WRITE PTR = 308
+==============================================================================================
+[  0] TRACE_BOOT                                                   191          (0xbf)
+[  1] TRACE_CLOCK_EXACT_USER_CLK_ENABLE                            1038         (0x40e)
+[  2] TRACE_CONFIG_EVENT_ANTI_TAMPER                               1075         (0x433)
+[  3] TRACE_GET_DC1_BLOCK                                          1            (0x1)
+[  4] TRACE_PIN_TABLE_SKIPPED                                      11           (0xb)
+[  5] TRACE_BOOT                                                   120          (0x78)
+[  6] TRACE_GET_DC0_BLOCK                                          1937         (0x791)
+[  7] TRACE_FPGA_READY                                             810          (0x32a)
+[  8] TRACE_CONFIG_EVENT_ERROR                                     205          (0xcd)
+[  9] TRACE_CONFIG_STATE_MACHINE_SSBL_SYNC_BLOCK                   322          (0x142)
+[ 10] TRACE_GET_DC1_BLOCK                                          4088         (0xff8)
+[ 11] TRACE_CONFIG_EVENT_ERROR                                     205          (0xcd)
+[ 12] TRACE_CONFIG_STATE_MACHINE_SECTION_HEADER                    380          (0x17c)
+[ 13] TRACE_MBOX_Q_CMD_HDLR_BAD_PTR                                92           (0x5c)
+[ 14] TRACE_GET_DC1_BLOCK                                          2            (0x2)
+[ 15] TRACE_MBOX_Q_MSG_FREE_BAD_PTR                                10           (0xa)
+[ 16] TRACE_MBOX_Q_MSG_FREE_FREE_PTR                               1300         (0x514)
+[ 17] TRACE_DMA_WR_ENQUEUE_FAIL                                    0            (0x0)
+[ 18] TRACE_INT_DONE_WEST                                          4096         (0x1000)
+[ 19] TRACE_MBOX_Q_MSG_FREE_FREE_PTR                               168          (0xa8)
+[ 20] TRACE_INT_DONE_WEST                                          4096         (0x1000)
+[ 21] TRACE_CONFIG_STATE_MACHINE_PARSE_SIG_DESC                    426          (0x1aa)
+[ 22] TRACE_CNT_DEASSERT_TX_INT_MCAST                              0            (0x0)
+[ 23] TRACE_AUTH_INVALID_ROOT_KEY                                  382          (0x17e)
+[ 24] TRACE_CVP_INITIAL                                            1129464390   (0x43524246)
+[ 25] TRACE_CONFIG_STATE_MACHINE_SECTION_HANDLER                   101          (0x65)
+[ 26] TRACE_MBOX_Q_ERROR                                           40960        (0xa000)
+[ 27] TRACE_BITSTREAM_CNOC_TEMPLATE_MUTABLE_NOP                    138          (0x8a)
+[ 28] TRACE_CVP_ABORT                                              153          (0x99)
+[ 29] TRACE_CMF_KEYS_FIFO_PACKETS_FAILURE                          133          (0x85)
+[ 30] TRACE_DDR_HASH_MATCH                                         0            (0x0)
+[ 31] TRACE_DDR_HASH_MATCH                                         0            (0x0)
+[ 32] TRACE_DDR_HASH_MATCH                                         115          (0x73)
+[ 33] TRACE_DIMK_GEN_MEK_ERR_CLEAR_UKV_SLOT                        1305         (0x519)
+[ 34] TRACE_SLOT_PROVIDED_CONTAINS_DISABLED_PLUS                   336          (0x150)
+[ 35] TRACE_SECTION_TYPE_FPGA_DEBUG                                122          (0x7a)
+[ 36] TRACE_CONFIG_AES_AES_BUSY                                    298          (0x12a)
+[ 37] TRACE_CONFIG_AES_AES_FAILURE                                 0            (0x0)
+[ 38] TRACE_CONFIG_AES_AES_RESOURCE_UNAVAILABLE                    317          (0x13d)
+[ 39] TRACE_GET_DC1_BLOCK                                          10           (0xa)
+[ 40] TRACE_MBOX_Q_MSG_FREE_BAD_PTR                                663594       (0xa202a)
+[ 41] TRACE_MBOX_Q_MSG_FREE_FREE_PTR                               1300         (0x514)
+[ 42] TRACE_DMA_WR_ENQUEUE_FAIL                                    2            (0x2)
+[ 43] TRACE_BITSTREAM_SECTION_HEADER                               1531904      (0x176000)
+[ 44] TRACE_INT_DONE_WEST                                          4096         (0x1000)
+[ 45] TRACE_BITSTREAM_HASH_BLK                                     1531904      (0x176000)
+[ 46] TRACE_BITSTREAM_CNT_INITIALIZE                               1531904      (0x176000)
+[ 47] TRACE_ACTION_HASHES                                          60           (0x3c)
+[ 48] TRACE_BITSTREAM_HASH_BLK                                     1531904      (0x176000)
+[ 49] TRACE_ACTION_PADDING                                         396          (0x18c)
+[ 50] TRACE_BITSTREAM_CNT_INITIALIZE                               1531904      (0x176000)
+[ 51] TRACE_BITSTREAM_SECTION_HEADER                               1536000      (0x177000)
+[ 52] TRACE_INT_DONE_WEST                                          4096         (0x1000)
+[ 53] TRACE_BITSTREAM_HASH_BLK                                     1536000      (0x177000)
+[ 54] TRACE_BITSTREAM_CNT_INITIALIZE                               1536000      (0x177000)
+[ 55] TRACE_ACTION_COMMENT                                         50           (0x32)
+[ 56] TRACE_ACTION_PADDING                                         396          (0x18c)
+[ 57] TRACE_BITSTREAM_INT_WAIT                                     1536000      (0x177000)
+[ 58] TRACE_BITSTREAM_SECTION_HEADER                               1536000      (0x177000)
+[ 59] TRACE_INT_DONE_WEST                                          4096         (0x1000)
+[ 60] TRACE_BITSTREAM_HASH_BLK                                     1536000      (0x177000)
+[ 61] TRACE_BITSTREAM_CNT_INITIALIZE                               1536000      (0x177000)
+[ 62] TRACE_ACTION_FIXED                                           137          (0x89)
+[ 63] TRACE_BITSTREAM_HASH_BLK                                     1536000      (0x177000)
+[ 64] TRACE_ACTION_COMMENT                                         50           (0x32)
+[ 65] TRACE_ACTION_COMMENT                                         50           (0x32)
+[ 66] TRACE_ACTION_MULTICAST                                       58           (0x3a)
+[ 67] TRACE_BITSTREAM_HASH_BLK                                     1536000      (0x177000)
+[ 68] TRACE_ACTION_INDEXSIZE                                       280          (0x118)
+[ 69] TRACE_ACTION_OPERATION                                       1286         (0x506)
+[ 70] TRACE_DMA_RD_ENQUEUE_FAIL                                    7            (0x7)
+[ 71] TRACE_ACTION_SECTOR_GROUP                                    489          (0x1e9)
+[ 72] TRACE_ACTION_SECTOR_GROUP                                    991          (0x3df)
+[ 73] TRACE_MBOX_HW_MGR_VERBOSE_LOC                                366          (0x16e)
+[ 74] TRACE_GET_DC1_BLOCK                                          0            (0x0)
+[ 75] TRACE_GET_DC1_BLOCK                                          3            (0x3)
+[ 76] TRACE_INT_DONE_EAST                                          4096         (0x1000)
+[ 77] TRACE_BITSTREAM_CNT_INITIALIZE                               1536000      (0x177000)
+[ 78] TRACE_INT_DONE_EAST                                          4096         (0x1000)
+[ 79] TRACE_INT_DONE_EAST                                          4096         (0x1000)
+[ 80] TRACE_MEMORY_ADD_REF_ERROR                                   378          (0x17a)
+[ 81] TRACE_WIPE_PASS_1_ERROR                                      366          (0x16e)
+[ 82] TRACE_ACTION_CNOC_DELAY                                      1024         (0x400)
+[ 83] TRACE_ACTION_CNOC_SEND                                       4            (0x4)
+[ 84] TRACE_ACTION_CNOC_DELAY                                      1024         (0x400)
+[ 85] TRACE_ACTION_INTERRUPT_WAIT                                  61           (0x3d)
+[ 86] TRACE_ACTION_INTERRUPT_WAIT                                  1000         (0x3e8)
+[ 87] TRACE_ACTION_CHECK_CNT_STATUS                                227          (0xe3)
+[ 88] TRACE_ACTION_PADDING                                         396          (0x18c)
+[ 89] TRACE_BITSTREAM_CNT_INITIALIZE                               1536000      (0x177000)
+[ 90] TRACE_BITSTREAM_INT_WAIT                                     1536000      (0x177000)
+[ 91] TRACE_BITSTREAM_SECTION_HEADER                               1536000      (0x177000)
+[ 92] TRACE_INT_DONE_WEST                                          4096         (0x1000)
+[ 93] TRACE_BITSTREAM_HASH_BLK                                     1536000      (0x177000)
+[ 94] TRACE_BITSTREAM_CNT_INITIALIZE                               1536000      (0x177000)
+[ 95] TRACE_ACTION_CNOC_SEND                                       40976        (0xa010)
+[ 96] TRACE_ACTION_CNOC_DELAY                                      256          (0x100)
+[ 97] TRACE_ACTION_INTERRUPT_WAIT                                  61           (0x3d)
+[ 98] TRACE_ACTION_INTERRUPT_WAIT                                  1000         (0x3e8)
+[ 99] TRACE_ACTION_CNOC_SEND                                       40977        (0xa011)
+[100] TRACE_ACTION_CNOC_DELAY                                      256          (0x100)
+[101] TRACE_ACTION_INTERRUPT_WAIT                                  61           (0x3d)
+[102] TRACE_ACTION_INTERRUPT_WAIT                                  1000         (0x3e8)
+[103] TRACE_ACTION_SECTOR_GROUP                                    489          (0x1e9)
+[104] TRACE_ACTION_SECTOR_GROUP                                    991          (0x3df)
+[105] TRACE_MBOX_HW_MGR_VERBOSE_LOC                                366          (0x16e)
+[106] TRACE_GET_DC1_BLOCK                                          0            (0x0)
+[107] TRACE_GET_DC1_BLOCK                                          1            (0x1)
+[108] TRACE_INT_DONE_EAST                                          4096         (0x1000)
+[109] TRACE_MEMORY_ADD_REF_ERROR                                   378          (0x17a)
+[110] TRACE_WIPE_PASS_1_ERROR                                      366          (0x16e)
+[111] TRACE_MEMORY_ADD_REF_ERROR                                   378          (0x17a)
+[112] TRACE_WIPE_PASS_1_ERROR                                      366          (0x16e)
+[113] TRACE_ACTION_PADDING                                         396          (0x18c)
+[114] TRACE_BITSTREAM_INT_WAIT                                     1536000      (0x177000)
+[115] TRACE_BITSTREAM_SECTION_HEADER                               1536000      (0x177000)
+[116] TRACE_BITSTREAM_INT_WAIT                                     1531904      (0x176000)
+[117] TRACE_INT_DONE_WEST                                          4096         (0x1000)
+[118] TRACE_BITSTREAM_HASH_BLK                                     1536000      (0x177000)
+[119] TRACE_BITSTREAM_CNT_INITIALIZE                               1536000      (0x177000)
+[120] TRACE_SDOS_AES_KEY_FAILURE                                   293          (0x125)
+[121] TRACE_MBOX_Q_MSG_FREE_FREE_PTR                               168          (0xa8)
+[122] TRACE_SDOS_SERVICE_ROOT_KEY_FAILURE                          1896         (0x768)
+[123] TRACE_BITSTREAM_CNOC_TEMPLATE_MUTABLE_INTWAIT                856499774    (0x330d263e)
+[124] TRACE_ACTION_PADDING                                         396          (0x18c)
+[125] TRACE_BITSTREAM_INT_WAIT                                     1536000      (0x177000)
+[126] TRACE_BITSTREAM_SECTION_HEADER                               1531904      (0x176000)
+[127] TRACE_INT_DONE_WEST                                          4096         (0x1000)
+[128] TRACE_BITSTREAM_HASH_BLK                                     1531904      (0x176000)
+[129] TRACE_BITSTREAM_CNT_INITIALIZE                               1531904      (0x176000)
+[130] TRACE_ACTION_FIXED                                           137          (0x89)
+[131] TRACE_ACTION_COMMENT                                         50           (0x32)
+[132] TRACE_ACTION_COMMENT                                         50           (0x32)
+[133] TRACE_ACTION_IF                                              238          (0xee)
+[134] TRACE_ACTION_CONFIG_PIN                                      300          (0x12c)
+[135] TRACE_ACTION_CONFIG_PIN                                      91           (0x5b)
+[136] TRACE_ACTION_CONFIG_PIN_CONF_DONE                            116          (0x74)
+[137] TRACE_ACTION_OPERATION                                       0            (0x0)
+[138] TRACE_ACTION_OPERATION_SDM_TO_FPGA_ENABLE                    116          (0x74)
+[139] TRACE_ACTION_OPERATION                                       1282         (0x502)
+[140] TRACE_DMA_RD_ENQUEUE_FAIL                                    3            (0x3)
+[141] TRACE_CONFIG_STATE_POST_MSG_ERR                              3            (0x3)
+[142] TRACE_CONFIG_STATE_POST_MSG_ERR                              3            (0x3)
+[143] TRACE_ACTION_IF                                              238          (0xee)
+[144] TRACE_ACTION_CONFIG_PIN                                      300          (0x12c)
+[145] TRACE_ACTION_CONFIG_PIN                                      91           (0x5b)
+[146] TRACE_ACTION_CONFIG_PIN_INIT_DONE                            121          (0x79)
+[147] TRACE_ACTION_OPERATION                                       1280         (0x500)
+[148] TRACE_DMA_RD_ENQUEUE_FAIL                                    1            (0x1)
+[149] TRACE_ACTION_IF                                              238          (0xee)
+[150] TRACE_ACTION_SKIP                                            2            (0x2)
+[151] TRACE_ACTION_SKIP                                            1            (0x1)
+[152] TRACE_ACTION_IF                                              238          (0xee)
+[153] TRACE_ACTION_SKIP                                            1            (0x1)
+[154] TRACE_ACTION_IF                                              238          (0xee)
+[155] TRACE_ACTION_SKIP                                            1            (0x1)
+[156] TRACE_ACTION_PADDING                                         396          (0x18c)
+[157] TRACE_BITSTREAM_INT_WAIT                                     1531904      (0x176000)
+[158] TRACE_SECTOR_GROUP_WAITING_DC0                               576          (0x240)
+[159] TRACE_CMF_DIMK_CONTEXT_FAILED                                638          (0x27e)
+[160] TRACE_CONFIG_EVENT_INTERRUPTION                              277          (0x115)
+[161] TRACE_SECTOR_GROUP_WAITING_DC0                               576          (0x240)
+[162] TRACE_CMF_DIMK_CONTEXT_FAILED                                638          (0x27e)
+[163] TRACE_CONFIG_STATE_POST_MSG_ERR                              4            (0x4)
+[164] TRACE_PIN_TABLE_SKIPPED                                      7            (0x7)
+[165] TRACE_MBOX_HW_MGR_FPGA_ERROR                                 365          (0x16d)
+[166] TRACE_CONFIG_MAIN_HEADER_LOADED                              366          (0x16e)
+[167] TRACE_CONFIG_PR_CERTIFICATE_NOWIPE                           367          (0x16f)
+[168] TRACE_CONFIG_EVENT_PRECONFIG                                 100          (0x64)
+[169] TRACE_CMF_DIMK_BOOTDIMK_FAILED                               776          (0x308)
+[170] TRACE_CMF_KEYS_FIFO_PACKETS_FAILURE                          157          (0x9d)
+[171] TRACE_BITSTREAM_SECTION_HEADER                               1531904      (0x176000)
+[172] TRACE_BITSTREAM_INTERRUPT                                    1478         (0x5c6)
+[173] TRACE_GET_DC1_BLOCK                                          2            (0x2)
+[174] TRACE_MBOX_Q_MSG_FREE_BAD_PTR                                2            (0x2)
+[175] TRACE_MBOX_Q_MSG_FREE_FREE_PTR                               1300         (0x514)
+[176] TRACE_DMA_WR_ENQUEUE_FAIL                                    2            (0x2)
+[177] TRACE_BITSTREAM_SIG_BLK                                      247          (0xf7)
+[178] TRACE_BITSTREAM_INTERRUPT                                    276          (0x114)
+[179] TRACE_BITSTREAM_SIG_BLK                                      247          (0xf7)
+[180] TRACE_MBOX_Q_MSG_FREE_FREE_PTR                               168          (0xa8)
+[181] TRACE_BITSTREAM_INT_WAIT                                     1531904      (0x176000)
+[182] TRACE_BITSTREAM_INT_WAIT                                     1531904      (0x176000)
+[183] TRACE_BITSTREAM_SECTION_HEADER                               1531904      (0x176000)
+[184] TRACE_INT_DONE_WEST                                          4096         (0x1000)
+[185] TRACE_BITSTREAM_HASH_BLK                                     1531904      (0x176000)
+[186] TRACE_BITSTREAM_CNT_INITIALIZE                               1531904      (0x176000)
+[187] TRACE_ACTION_FIXED                                           137          (0x89)
+[188] TRACE_ACTION_COMMENT                                         50           (0x32)
+[189] TRACE_ACTION_OPERATION                                       1            (0x1)
+[190] TRACE_ACTION_OPERATION_FPGA_PREPARE_BRIDGE_SHUTDOWN          181          (0xb5)
+[191] TRACE_ACTION_CNOC_DELAY                                      1000         (0x3e8)
+[192] TRACE_ACTION_OPERATION                                       1281         (0x501)
+[193] TRACE_DMA_RD_ENQUEUE_FAIL                                    2            (0x2)
+[194] TRACE_ACTION_OPERATION                                       1283         (0x503)
+[195] TRACE_DMA_RD_ENQUEUE_FAIL                                    4            (0x4)
+[196] TRACE_ACTION_IF                                              238          (0xee)
+[197] TRACE_ACTION_SKIP                                            3            (0x3)
+[198] TRACE_ACTION_SKIP                                            2            (0x2)
+[199] TRACE_ACTION_SKIP                                            1            (0x1)
+[200] TRACE_ACTION_IF                                              238          (0xee)
+[201] TRACE_ACTION_SKIP                                            1            (0x1)
+[202] TRACE_DMA_DRAIN                                              1            (0x1)
+[203] TRACE_GET_DC1_BLOCK                                          1            (0x1)
+[204] TRACE_BITSTREAM_SECTION_HEADER                               1536000      (0x177000)
+[205] TRACE_SECTOR_GROUP_TIMEOUT                                   0            (0x0)
+[206] TRACE_BITSTREAM_INT_WAIT                                     1536000      (0x177000)
+[207] TRACE_BITSTREAM_INT_WAIT                                     1536000      (0x177000)
+[208] TRACE_ACTION_IF                                              238          (0xee)
+[209] TRACE_ACTION_SKIP                                            3            (0x3)
+[210] TRACE_ACTION_SKIP                                            2            (0x2)
+[211] TRACE_ACTION_SKIP                                            1            (0x1)
+[212] TRACE_ACTION_IF                                              238          (0xee)
+[213] TRACE_ACTION_SKIP                                            1            (0x1)
+[214] TRACE_ACTION_IF                                              238          (0xee)
+[215] TRACE_ACTION_SKIP                                            1            (0x1)
+[216] TRACE_ACTION_IF                                              238          (0xee)
+[217] TRACE_ACTION_SKIP                                            1            (0x1)
+[218] TRACE_ACTION_IF                                              238          (0xee)
+[219] TRACE_ACTION_CONFIG_PIN                                      300          (0x12c)
+[220] TRACE_ACTION_CONFIG_PIN                                      91           (0x5b)
+[221] TRACE_ACTION_CONFIG_PIN_INIT_DONE                            121          (0x79)
+[222] TRACE_ACTION_IF                                              238          (0xee)
+[223] TRACE_ACTION_CONFIG_PIN                                      300          (0x12c)
+[224] TRACE_ACTION_CONFIG_PIN                                      91           (0x5b)
+[225] TRACE_ACTION_CONFIG_PIN_CONF_DONE                            116          (0x74)
+[226] TRACE_ACTION_PADDING                                         396          (0x18c)
+[227] TRACE_BITSTREAM_INT_WAIT                                     1531904      (0x176000)
+[228] TRACE_CVP_UPDATE                                             847          (0x34f)
+[229] TRACE_DIMK_GEN_MEK_KAD_WA_BEFORE_FAIL                        171          (0xab)
+[230] TRACE_CONFIG_EVENT_ANTI_TAMPER                               1287         (0x507)
+[231] TRACE_PIN_TABLE_SKIPPED                                      8            (0x8)
+[232] TRACE_CONFIG_EVENT_ERROR                                     121          (0x79)
+[233] TRACE_PIN_TABLE_SKIPPED                                      7            (0x7)
+[234] TRACE_MBOX_HW_MGR_FPGA_ERROR                                 365          (0x16d)
+[235] TRACE_CONFIG_MAIN_HEADER_LOADED                              366          (0x16e)
+[236] TRACE_CONFIG_PR_CERTIFICATE_NOWIPE                           367          (0x16f)
+[237] TRACE_CONFIG_EVENT_PRECONFIG                                 932          (0x3a4)
+[238] TRACE_ERROR                                                  348          (0x15c)
+[239] TRACE_ERROR                                                  4026793984   (0xf0040000)
+[240] TRACE_ERROR                                                  0            (0x0)
+[241] TRACE_CMF_DIMK_CONTEXT_FAILED                                192          (0xc0)
+[242] TRACE_CMF_DIMK_FAILED                                        199          (0xc7)
+[243] TRACE_BITSTREAM_CNOC_TEMPLATE_MUTABLE_NOP                    476          (0x1dc)
+[244] TRACE_CVP_ABORT                                              491          (0x1eb)
+[245] TRACE_DIMK_GEN_MEK_FLOW_RUN_HW_FAIL                          144          (0x90)
+[246] TRACE_CMF_KEYS_FIFO_PACKETS_FAILURE                          157          (0x9d)
+[247] TRACE_BITSTREAM_SECTION_HEADER                               1531904      (0x176000)
+[248] TRACE_BITSTREAM_INTERRUPT                                    1478         (0x5c6)
+[249] TRACE_GET_DC1_BLOCK                                          2            (0x2)
+[250] TRACE_MBOX_Q_MSG_FREE_BAD_PTR                                2            (0x2)
+[251] TRACE_MBOX_Q_MSG_FREE_FREE_PTR                               1300         (0x514)
+[252] TRACE_DMA_WR_ENQUEUE_FAIL                                    0            (0x0)
+[253] TRACE_BITSTREAM_SIG_BLK                                      247          (0xf7)
+[254] TRACE_BITSTREAM_INTERRUPT                                    276          (0x114)
+[255] TRACE_BITSTREAM_SIG_BLK                                      247          (0xf7)
+[256] TRACE_MBOX_Q_MSG_FREE_FREE_PTR                               168          (0xa8)
+[257] TRACE_BITSTREAM_INT_WAIT                                     1531904      (0x176000)
+[258] TRACE_BITSTREAM_INT_WAIT                                     1531904      (0x176000)
+[259] TRACE_BITSTREAM_SECTION_HEADER                               1531904      (0x176000)
+[260] TRACE_INT_DONE_WEST                                          4096         (0x1000)
+[261] TRACE_BITSTREAM_HASH_BLK                                     1531904      (0x176000)
+[262] TRACE_BITSTREAM_CNT_INITIALIZE                               1531904      (0x176000)
+[263] TRACE_ACTION_FIXED                                           137          (0x89)
+[264] TRACE_ACTION_COMMENT                                         50           (0x32)
+[265] TRACE_ACTION_OPERATION                                       1            (0x1)
+[266] TRACE_ACTION_OPERATION_FPGA_PREPARE_BRIDGE_SHUTDOWN          181          (0xb5)
+[267] TRACE_ACTION_CNOC_DELAY                                      1000         (0x3e8)
+[268] TRACE_ACTION_OPERATION                                       1281         (0x501)
+[269] TRACE_DMA_RD_ENQUEUE_FAIL                                    2            (0x2)
+[270] TRACE_ACTION_OPERATION                                       1283         (0x503)
+[271] TRACE_DMA_RD_ENQUEUE_FAIL                                    4            (0x4)
+[272] TRACE_ACTION_IF                                              238          (0xee)
+[273] TRACE_ACTION_SKIP                                            3            (0x3)
+[274] TRACE_ACTION_SKIP                                            2            (0x2)
+[275] TRACE_ACTION_SKIP                                            1            (0x1)
+[276] TRACE_ACTION_IF                                              238          (0xee)
+[277] TRACE_ACTION_SKIP                                            1            (0x1)
+[278] TRACE_DMA_DRAIN                                              1            (0x1)
+[279] TRACE_GET_DC1_BLOCK                                          1            (0x1)
+[280] TRACE_BITSTREAM_SECTION_HEADER                               1536000      (0x177000)
+[281] TRACE_SECTOR_GROUP_TIMEOUT                                   0            (0x0)
+[282] TRACE_BITSTREAM_INT_WAIT                                     1536000      (0x177000)
+[283] TRACE_BITSTREAM_INT_WAIT                                     1536000      (0x177000)
+[284] TRACE_ACTION_IF                                              238          (0xee)
+[285] TRACE_ACTION_SKIP                                            3            (0x3)
+[286] TRACE_ACTION_SKIP                                            2            (0x2)
+[287] TRACE_ACTION_SKIP                                            1            (0x1)
+[288] TRACE_ACTION_IF                                              238          (0xee)
+[289] TRACE_ACTION_SKIP                                            1            (0x1)
+[290] TRACE_ACTION_IF                                              238          (0xee)
+[291] TRACE_ACTION_SKIP                                            1            (0x1)
+[292] TRACE_ACTION_IF                                              238          (0xee)
+[293] TRACE_ACTION_SKIP                                            1            (0x1)
+[294] TRACE_ACTION_IF                                              238          (0xee)
+[295] TRACE_ACTION_CONFIG_PIN                                      300          (0x12c)
+[296] TRACE_ACTION_CONFIG_PIN                                      91           (0x5b)
+[297] TRACE_ACTION_CONFIG_PIN_INIT_DONE                            121          (0x79)
+[298] TRACE_ACTION_IF                                              238          (0xee)
+[299] TRACE_ACTION_CONFIG_PIN                                      300          (0x12c)
+[300] TRACE_ACTION_CONFIG_PIN                                      91           (0x5b)
+[301] TRACE_ACTION_CONFIG_PIN_CONF_DONE                            116          (0x74)
+[302] TRACE_ACTION_PADDING                                         396          (0x18c)
+[303] TRACE_BITSTREAM_INT_WAIT                                     1531904      (0x176000)
+[304] TRACE_CVP_UPDATE                                             847          (0x34f)
+[305] TRACE_DIMK_GEN_MEK_KAD_WA_BEFORE_FAIL                        171          (0xab)
+[306] TRACE_PIN_TABLE_SKIPPED                                      8            (0x8)
+[307] TRACE_CONFIG_EVENT_ERROR                                     1076         (0x434)
+
+<--------------g_trace end--------------
+
+
+
+Close DUT
+   SysConC  | close_service master /channels/remote1/claimGroup/master_1
+   SysConR  | No respond
+   Info     | pycv_system_console close()
+   Info     | TimeStamp: [close_system_console()] Elapsed: 0.019 s
+   Info     | DUT utilization time = 0:14:38.759817
+   Info     | For documentation, please visit https://goto/pycv
+
+TEST_RESULT :: PASSED
+INFO :: leftover syscon pid(s): []
+Stop Emulator....
+Removing netbatch jobid 8096513
+The following jobs will be removed
+  +fm_emu_vp.8096513 (removed successfully)
+Removing temp jobid storage file /tmp/arc_300439636/emulator/nb_jobid.txt
+Killing jtagd process 10204 ...
+
+ TEST_INFO :: EMULATOR STOP COMMAND ISSUED SUCCESSFULLY............Info: Paused test execution timeout monitor.
+Info: Current time is Mon Aug  2 04:10:47 2021
+
+reg.rout.............................................................. OK
+
+Info: No family detected. 
+
+Register to Pert as pass succeeded.
+
+Info: reg_analyze took 0.098101 seconds
+
+Info: Restarted test execution timeout monitor.
+Info: Stopped test execution timeout monitor.
+
+Info: Current time is Mon Aug  2 04:10:48 2021
+Info: Regtest p/psg/data/parthpat/qshell_quartuskit/p4/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/jtagtest_15_DMD ran in 1543.21018 seconds
+
+Info: Processing execution directory before copying back result files...
+   Dir: /tmp/arc_300439636/_0/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/jtagtest_15_DMD/
+   Items to copy back are listed in .reg_run/returned_files.txt
+   Elapsed time: 0.143568 seconds
+
+Info: Copying result files from local hard drive to shared drive...
+   Src: /tmp/arc_300439636/_0/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/jtagtest_15_DMD
+   Dst: /p/psg/data/parthpat/regtest/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/jtagtest_15_DMD
+Info: Copying file:
+   From: /tmp/arc_300439636/_0/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/jtagtest_15_DMD
+   To: /p/psg/data/parthpat/regtest/regtest/esv/fw_validation/fm_emu/bootrom/jtag_nconfig0101_config/jtagtest_15_DMD
+   Elapsed time: 0.212337 seconds
+
+===========================================================================
+Goodbye - the SWIP regtest framework is exiting (0)...
+Current time: Mon Aug  2 04:10:49 2021
+Failed to locate temp jobid storage file /tmp/arc_300439636/emulator/nb_jobid.txt
+Folsom jobid associated with PICE machine not found. Either this was already cleaned up or you are using different ARC_TEMP_STORAGE setting!
+This might due to you are now using a different terminal or you had run 'arc shell or exit' after running emulator.sh --start_emulator.
+	VP on fmynbm7005
+	Version 8.4.2_0942_05
+	On since 05/06/2021 13:41:40
+	Time now 08/02/2021 04:10:50
+--------------------------------------------------------------------------------------------------------
+Status               Jobid Class    Qslot  User       Cmdline                             Workstation   
+--------------------------------------------------------------------------------------------------------
+Del                8096513 (emu_dr> /v2sm> parthpat   /nfs/site/disks/psg_fm_disk001/rel> fmev0119      
+--------------------------------------------------------------------------------------------------------
+Please run 'emulator.sh --stop_emulator --jobid <JOBID> to remove the folsom emulator job instead.

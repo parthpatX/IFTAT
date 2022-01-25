@@ -1,0 +1,819 @@
+---------------g_trace start------------->
+
+ 
+
+22-October-2021 06:15:11
+
+ 
+
+CHECKSUM = 0x000732a5
+
+WRITE OFFSET = 200
+
+Trace wrapped
+
+==============================================================================================
+
+[200] TRACE_CNOC_SCRAMBLE_FIFO_FILL_LEVEL                          16128        0x00003f00
+
+[201] TRACE_CONFIG_CNOC_SCRAMBLE_INFO                              600          0x00000258
+
+[202] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[203] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[204] TRACE_CNOC_SCRAMBLE_FIFO_LEVEL                               0            0x00000000
+
+[205] TRACE_CNOC_SCRAMBLE_FIFO_FILL_LEVEL                          16128        0x00003f00
+
+[206] TRACE_CONFIG_CNOC_SCRAMBLE_INFO                              600          0x00000258
+
+[207] TRACE_ACTION_SECTOR_GROUP                                    992          0x000003e0
+
+[208] TRACE_GENERIC_INFO                                           6            0x00000006
+
+[209] TRACE_GENERIC_INFO                                           3            0x00000003
+
+[210] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[211] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[212] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[213] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[214] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[215] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[216] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[217] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[218] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[219] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[220] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[221] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[222] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[223] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[224] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[225] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[226] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[227] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[228] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[229] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[230] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[231] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[232] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[233] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[234] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[235] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[236] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[237] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[238] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[239] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[240] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[241] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[242] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[243] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[244] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[245] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[246] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[247] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[248] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[249] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[250] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[251] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[252] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[253] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[254] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[255] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[256] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[257] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[258] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[259] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[260] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[261] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[262] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[263] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[264] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[265] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[266] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[267] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[268] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[269] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[270] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[271] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[272] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[273] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[274] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[275] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[276] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[277] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[278] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[279] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[280] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[281] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[282] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[283] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[284] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[285] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[286] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[287] TRACE_CNOC_SCRAMBLE_FIFO_LEVEL                               255          0x000000ff
+
+[288] TRACE_CNOC_SCRAMBLE_FIFO_FILL_LEVEL                          14080        0x00003700
+
+[289] TRACE_CONFIG_CNOC_SCRAMBLE_INFO                              600          0x00000258
+
+[290] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[291] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[292] TRACE_CNOC_SCRAMBLE_FIFO_LEVEL                               0            0x00000000
+
+[293] TRACE_CNOC_SCRAMBLE_FIFO_FILL_LEVEL                          16128        0x00003f00
+
+[294] TRACE_CONFIG_CNOC_SCRAMBLE_INFO                              600          0x00000258
+
+[295] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[296] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[297] TRACE_CNOC_SCRAMBLE_FIFO_LEVEL                               0            0x00000000
+
+[298] TRACE_CNOC_SCRAMBLE_FIFO_FILL_LEVEL                          16128        0x00003f00
+
+[299] TRACE_CONFIG_CNOC_SCRAMBLE_INFO                              600          0x00000258
+
+[300] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[301] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[302] TRACE_CNOC_SCRAMBLE_FIFO_LEVEL                               0            0x00000000
+
+[303] TRACE_CNOC_SCRAMBLE_FIFO_FILL_LEVEL                          16128        0x00003f00
+
+[304] TRACE_CONFIG_CNOC_SCRAMBLE_INFO                              600          0x00000258
+
+[305] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[306] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[307] TRACE_CNOC_SCRAMBLE_FIFO_LEVEL                               0            0x00000000
+
+[308] TRACE_CNOC_SCRAMBLE_FIFO_FILL_LEVEL                          16128        0x00003f00
+
+[309] TRACE_CONFIG_CNOC_SCRAMBLE_INFO                              600          0x00000258
+
+[310] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[311] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[312] TRACE_CNOC_SCRAMBLE_FIFO_LEVEL                               0            0x00000000
+
+[313] TRACE_CNOC_SCRAMBLE_FIFO_FILL_LEVEL                          16128        0x00003f00
+
+[314] TRACE_CONFIG_CNOC_SCRAMBLE_INFO                              600          0x00000258
+
+[315] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[316] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[317] TRACE_CNOC_SCRAMBLE_FIFO_LEVEL                               0            0x00000000
+
+[318] TRACE_CNOC_SCRAMBLE_FIFO_FILL_LEVEL                          16128        0x00003f00
+
+[319] TRACE_CONFIG_CNOC_SCRAMBLE_INFO                              600          0x00000258
+
+[320] TRACE_ACTION_SECTOR_GROUP                                    992          0x000003e0
+
+[321] TRACE_GENERIC_INFO                                           0            0x00000000
+
+[322] TRACE_GENERIC_INFO                                           1            0x00000001
+
+[323] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[324] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[325] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[326] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[327] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[328] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[329] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[330] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[331] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[332] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[333] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[334] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[335] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[336] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[337] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[338] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[339] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[340] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[341] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[342] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[343] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[344] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[345] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[346] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[347] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[348] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[349] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[350] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[351] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[352] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[353] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[354] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[355] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[356] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[357] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[358] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[359] TRACE_ACTION_SECTOR_GROUP                                    992          0x000003e0
+
+[360] TRACE_GENERIC_INFO                                           0            0x00000000
+
+[361] TRACE_GENERIC_INFO                                           2            0x00000002
+
+[362] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[363] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[364] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[365] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[366] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[367] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[368] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[369] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[370] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[371] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[372] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[373] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[374] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[375] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[376] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[377] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[378] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[379] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[380] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[381] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[382] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[383] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[384] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[385] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[386] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[387] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[388] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[389] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[390] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[391] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[392] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[393] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[394] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[395] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[396] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[397] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[398] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[399] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[  0] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[  1] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[  2] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[  3] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[  4] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[  5] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[  6] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[  7] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[  8] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[  9] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 10] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 11] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 12] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 13] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 14] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 15] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 16] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 17] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 18] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 19] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 20] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 21] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 22] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 23] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 24] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 25] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 26] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 27] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 28] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 29] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 30] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 31] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 32] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 33] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 34] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 35] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 36] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 37] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 38] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 39] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 40] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 41] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 42] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 43] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 44] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 45] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 46] TRACE_ACTION_SECTOR_GROUP                                    992          0x000003e0
+
+[ 47] TRACE_GENERIC_INFO                                           0            0x00000000
+
+[ 48] TRACE_GENERIC_INFO                                           2            0x00000002
+
+[ 49] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 50] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 51] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 52] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 53] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 54] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 55] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 56] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 57] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 58] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 59] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 60] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 61] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 62] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 63] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 64] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 65] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 66] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 67] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 68] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 69] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 70] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 71] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 72] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 73] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 74] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 75] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 76] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 77] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 78] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 79] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 80] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 81] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 82] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 83] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 84] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 85] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 86] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 87] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 88] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 89] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 90] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 91] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 92] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 93] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 94] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 95] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 96] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[ 97] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[ 98] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[ 99] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[100] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[101] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[102] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[103] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[104] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[105] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[106] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[107] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[108] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[109] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[110] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[111] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[112] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[113] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[114] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[115] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[116] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[117] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[118] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[119] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[120] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[121] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[122] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[123] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[124] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[125] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[126] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[127] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[128] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[129] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[130] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[131] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[132] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[133] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[134] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[135] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[136] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[137] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[138] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[139] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[140] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[141] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[142] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[143] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[144] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[145] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[146] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[147] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[148] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[149] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[150] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[151] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[152] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[153] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[154] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[155] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[156] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[157] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[158] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[159] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[160] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[161] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[162] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[163] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[164] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[165] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[166] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[167] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[168] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[169] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[170] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[171] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[172] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[173] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[174] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[175] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[176] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[177] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[178] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[179] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[180] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[181] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[182] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[183] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[184] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[185] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[186] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[187] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[188] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[189] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[190] TRACE_CNOC_SCRAMBLE_ERROR                                    468          0x000001d4
+
+[191] TRACE_CNOC_SCRAMBLE_ERROR                                    1            0x00000001
+
+[192] TRACE_CNOC_SCRAMBLE_ERROR                                    545          0x00000221
+
+[193] TRACE_CMF_KEYS_FIFO_AES_INVALID_CONTEXT                      893          0x0000037d
+
+[194] TRACE_CMF_KEYS_FIFO_AES_INVALID_CONTEXT                      893          0x0000037d
+
+[195] TRACE_CMF_KEYS_FIFO_AES_INVALID_CONTEXT                      893          0x0000037d
+
+[196] TRACE_CMF_KEYS_FIFO_AES_INVALID_CONTEXT                      893          0x0000037d
+
+[197] TRACE_CMF_KEYS_FIFO_AES_INVALID_CONTEXT                      893          0x0000037d
+
+[198] TRACE_CONFIG_STATE_COMPLETE                                  291          0x00000123
+
+[199] TRACE_MBOX_OPCODE_RCVD                                       4            0x00000004
+
+ 
+
+<--------------g_trace end--------------
